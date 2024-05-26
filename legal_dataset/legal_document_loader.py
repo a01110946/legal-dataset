@@ -6,12 +6,14 @@ Description: Module for loading legal documents from various sources.
 """
 
 import os
-import zipfile
-from typing import List, Dict
-import requests
-import pandas as pd
 import re
-from rich import print
+import zipfile
+from typing import Dict, List
+
+import pandas as pd
+import requests
+from utf8_encoder import convert_to_utf8
+
 
 def remove_new_lines(lines: list) -> list:
     clean_text = []
@@ -24,11 +26,12 @@ def remove_new_lines(lines: list) -> list:
         clean_text.append(line)
     return clean_text
 
+
 class LegalDocumentLoader:
     """
     Class for loading legal documents from various sources.
     """
-    
+
     @staticmethod
     def clean_text(doc):
         """
@@ -44,7 +47,7 @@ class LegalDocumentLoader:
             return clean_text
         else:
             return ""
-    
+
     @staticmethod
     def load_from_url(url: str) -> List[Dict[str, str]]:
         """
@@ -66,7 +69,7 @@ class LegalDocumentLoader:
         with zipfile.ZipFile(zip_filename, "r") as zip_ref:
             zip_ref.extractall(extract_directory)
 
-        # print(f"Extracted ZIP file to directory: {extract_directory}")
+        print(f"Extracted ZIP file to directory: {extract_directory}\n\n")
 
         legal_documents = []
 
@@ -75,31 +78,41 @@ class LegalDocumentLoader:
             for file in files:
                 if file.endswith(".txt"):
                     file_path = os.path.join(path, file)
-                    print(f"Processing file: {file_path}")
+                    print(f"Processing file: {file_path}\n\n")
                     try:
                         with open(file_path, "r", encoding="latin-1") as f:
                             text = f.read().splitlines()
                             clean_text = remove_new_lines(text)
-                            # print(f"Cleaned text: {clean_text[0:1000]}")
+                            print(f"Cleaned text: {clean_text[0:1000]}\n")
                             if len(clean_text) != 0:
-                                title = clean_text[0].strip()  # Extract the title from the first line
-                                # print(f"Extracted title: {title}")
-                                content = "\n".join(clean_text[1:])  # Join the remaining lines as the content
-                                # print(f"Extracted content: {content[0:1000]}")
+                                # Extract the title from the first line
+                                title = clean_text[0].strip()
+                                print(f"Extracted title: {title}\n")
+                                # Join the remaining lines as the content
+                                content = "\n".join(clean_text[1:])
+                                content = convert_to_utf8(
+                                    content.encode('latin-1'))
+                                print(
+                                    f"Extracted content: {content[0:1000]}\n")
                                 legal_documents.append({
                                     "Title": title,
                                     "Filename": file,
                                     "Text": content
                                 })
-                                # print(f"Extracted legal document: {legal_documents}")
+                                print(
+                                    f"Extracted legal document: {legal_documents}")
                     except UnicodeDecodeError:
-                        print(f"Skipping file {file_path} due to encoding issues.")
+                        print(
+                            f"**Skipping file {file_path} due to encoding issues.**\n")
+                    except Exception as e:
+                        print(e)
 
-        # print(f"Extracted legal documents: {legal_documents}")
-        # print(f"Number of legal documents extracted: {len(legal_documents)}")
-        # print(f"Type of legal documents: {type(legal_documents)}")
-        # print(f"Example legal document: {legal_documents[0]}")
-        # print(f"Example legal document text: {legal_documents[0]['Text'][500:700]}")
+        print(f"\n\nExtracted legal documents: {legal_documents}")
+        print(f"Number of legal documents extracted: {len(legal_documents)}")
+        print(f"Type of legal documents: {type(legal_documents)}")
+        print(f"Example legal document: {legal_documents[0]}")
+        print(
+            f"Example legal document text: {legal_documents[0]['Text'][500:700]}")
 
         # Clean up the downloaded ZIP file and extracted directory
         os.remove(zip_filename)
@@ -110,11 +123,11 @@ class LegalDocumentLoader:
                 os.rmdir(os.path.join(path, folder))
         os.rmdir(extract_directory)
 
-        # print(f"Cleaned up downloaded ZIP file and extracted directory.")
+        print(f"\nCleaned up downloaded ZIP file and extracted directory.")
 
         return legal_documents
 
-    @staticmethod
+    @ staticmethod
     def load_from_csv(file_path: str) -> List[str]:
         """
         Load legal documents from a CSV file.
@@ -132,28 +145,19 @@ class LegalDocumentLoader:
             raise ValueError("The 'Text' column is missing in the CSV file.")
 
         # Apply the clean_text function to the 'Text' column and create a new 'Clean Text' column
-        df['Clean Text'] = df['Text'].apply(lambda x: LegalDocumentLoader.clean_text(x) if isinstance(x, (str, bytes)) else "")
+        df['Clean Text'] = df['Text'].apply(lambda x: LegalDocumentLoader.clean_text(
+            x) if isinstance(x, (str, bytes)) else "")
 
         # Extract the text content from the 'Clean Text' column and convert it to a list of strings
         text_list = df['Clean Text'].tolist()
 
         # Remove any None or empty values from the list
-        text_list = [doc for doc in text_list if doc and isinstance(doc, str)]
-
-        # Initialize an empty list called 'data'
-        legal_documents = []
-
-        # Iterate through the elements of 'name_list' and 'text' simultaneously using zip
-        for name_item, text_item in zip(name_list, text_list):
-            # Create a dictionary with keys 'name' and 'text', and assign corresponding values
-            data_dict = {'Title': name_item, 'Text': text_item}
-
-            # Append the created dictionary to the 'data' list
-            legal_documents.append(data_dict)
+        legal_documents = [
+            doc for doc in legal_documents if doc and isinstance(doc, str)]
 
         return legal_documents
 
-    @staticmethod
+    @ staticmethod
     def load_from_dataframe(df: pd.DataFrame) -> List[str]:
         """
         Load legal documents from a Pandas DataFrame.
