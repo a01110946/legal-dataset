@@ -6,36 +6,46 @@ Description: Module for generating legal datasets from Mexican legal documents.
 """
 
 import json
-import time
 import random
-import unidecode
+import time
+from typing import Dict, List
 
-from typing import List, Dict
-from pydantic import BaseModel, Field
+import unidecode
+from downstream_task_generator import DownstreamTaskGenerator
 from langchain.chains import LLMChain
 from langchain.llms import BaseLLM
 from langchain.output_parsers import PydanticOutputParser
-from langchain_core.output_parsers import JsonOutputParser
 from langchain.prompts import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
 from langchain_openai import ChatOpenAI
-
 from langchain_text_splitters import TokenTextSplitter
-from tqdm import tqdm
-
-from llm.openai import chat_completion_request
 from legal_document_loader import LegalDocumentLoader
-from downstream_task_generator import DownstreamTaskGenerator
+from llm.openai import chat_completion_request
+from pydantic import BaseModel, Field
+from tqdm import tqdm
+from utf8_encoder import convert_to_utf8
+
 
 class Article(BaseModel):
-    ley: str = Field(description="Se refiere al nombre de la ley, por ejemplo, 'Código Federal de Procedimientos Civiles'")
-    libro_no: str = Field(description="Se refiere al número de libro al que pertenece, por ejemplo, 'LIBRO SEGUNDO'")
-    libro_nombre: str = Field(description="Se refiere al nombre del libro, por ejemplo, 'De los Bienes'")
-    titulo_no: str = Field(description="Se refiere al número de título, por ejemplo, 'TITULO SEGUNDO'")
-    titulo_nombre: str = Field(description="Se refiere al nombre del título, por ejemplo, 'De la Sucesión por Testamento'")
-    capitulo_no: str = Field(description="Se refiere al número de capítulo (solo si aplica, en caso de no pertenecer a un capítulo, declarar 'N/A'), por ejemplo, 'CAPITULO I'")
-    capitulo_nombre: str = Field(description="Se refiere al nombre del capítulo, por ejemplo, 'De los Testamentos en General'")
-    articulo_no: str = Field(description="Se refiere al número de artículo, por ejemplo, 'Artículo 1413'")
-    articulo_contenido: str = Field(description="Se refiere al contenido del artículo, por ejemplo, 'Queda también sin efecto el legado, si el testador enajena la cosa legada; pero vale si la recobra por un título legal.'")
+    ley: str = Field(
+        description="Se refiere al nombre de la ley, por ejemplo, 'Código Federal de Procedimientos Civiles'")
+    libro_no: str = Field(
+        description="Se refiere al número de libro al que pertenece, por ejemplo, 'LIBRO SEGUNDO'")
+    libro_nombre: str = Field(
+        description="Se refiere al nombre del libro, por ejemplo, 'De los Bienes'")
+    titulo_no: str = Field(
+        description="Se refiere al número de título, por ejemplo, 'TITULO SEGUNDO'")
+    titulo_nombre: str = Field(
+        description="Se refiere al nombre del título, por ejemplo, 'De la Sucesión por Testamento'")
+    capitulo_no: str = Field(
+        description="Se refiere al número de capítulo (solo si aplica, en caso de no pertenecer a un capítulo, declarar 'N/A'), por ejemplo, 'CAPITULO I'")
+    capitulo_nombre: str = Field(
+        description="Se refiere al nombre del capítulo, por ejemplo, 'De los Testamentos en General'")
+    articulo_no: str = Field(
+        description="Se refiere al número de artículo, por ejemplo, 'Artículo 1413'")
+    articulo_contenido: str = Field(
+        description="Se refiere al contenido del artículo, por ejemplo, 'Queda también sin efecto el legado, si el testador enajena la cosa legada; pero vale si la recobra por un título legal.'")
+
 
 class LegalDatasetGenerator:
     """
@@ -79,12 +89,13 @@ class LegalDatasetGenerator:
             raise ValueError(f"Invalid source type: {source_type}")
 
         print(f"These are the legal documents: {legal_documents}\n\n")
-        print(f"These are the legal documents type: {type(legal_documents)}\n---\n\n")
+        print(
+            f"These are the legal documents type: {type(legal_documents)}\n---\n\n")
 
         json_objects = []
         for doc in legal_documents:
-            #title = doc["Title"]
-            #text = doc["Text"]
+            # title = doc["Title"]
+            # text = doc["Text"]
             json_obj = self.generate_from_legal_documents(
                 [doc],
                 max_items_per_document,
@@ -92,7 +103,7 @@ class LegalDatasetGenerator:
                 chunk_overlap,
                 **kwargs,
             )
-            #json_obj[0]["Title"] = title
+            # json_obj[0]["Title"] = title
             json_objects.extend(json_obj)
 
         return json_objects
@@ -118,35 +129,46 @@ class LegalDatasetGenerator:
 
         print(f"---\n\nThis is the legal documents: {legal_documents}\n")
         print(f"This is the legal documents type: {type(legal_documents)}\n")
-        print(f"This is the type of the first legal document: {type(legal_documents[0])}\n")
-        print(f"These are the number of legal documents: {len(legal_documents)}\n")
-        print(f"These are the keys of the legal documents: {legal_documents[0].keys()}\n")
+        print(
+            f"This is the type of the first legal document: {type(legal_documents[0])}\n")
+        print(
+            f"These are the number of legal documents: {len(legal_documents)}\n")
+        print(
+            f"These are the keys of the legal documents: {legal_documents[0].keys()}\n")
 
         for document in legal_documents:
             print(f"---\n\nThis is the doc: {document}\n")
             print(f"This is the doc type: {type(document)}\n")
             print(f"This is the doc title: {document['Title']}\n")
-            print(f"This is a sample from the doc text: {document['Text'][700:900]}\n")
-            try:
-                # Attempt UTF-8 decoding
-                title = document["Title"].encode('latin-1').decode('utf-8')
-            except UnicodeDecodeError:
-                # If UTF-8 fails, use unidecode
-                # title = unidecode.unidecode(document["Title"])
-                title = document["Title"].encode('latin-1').decode('utf-8', errors="replace")
-            
-                print(f"Warning: Used unidecode for title '{title}' (original: {document['Title']})")
-                        
-            #title = unidecode.unidecode(doc["Title"])  # Convert the title to ASCII
-            #title = document["Title"].encode('latin-1').decode('utf-8')
+            print(
+                f"This is a sample from the doc text: {document['Text'][700:900]}\n")
+
+            title = convert_to_utf8(document["Title"].encode('latin-1'))
+            # try:
+            #     # Attempt UTF-8 decoding
+            #     # document["Title"].encode('latin-1').decode('utf-8')
+            #     title = convert_to_utf8(document["Title"])
+            # except UnicodeDecodeError:
+            #     # If UTF-8 fails, use unidecode
+            #     # title = unidecode.unidecode(document["Title"])
+            #     title = document["Title"].encode(
+            #         'latin-1').decode('utf-8', errors="replace")
+
+            #     print(
+            #         f"Warning: Used unidecode for title '{title}' (original: {document['Title']})")
+
+            # title = unidecode.unidecode(doc["Title"])  # Convert the title to ASCII
+            # title = document["Title"].encode('latin-1').decode('utf-8')
             text = document["Text"]
 
-            text_splitter = TokenTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+            text_splitter = TokenTextSplitter(
+                chunk_size=chunk_size, chunk_overlap=chunk_overlap)
             text_chunks = text_splitter.split_text(text)
             num_chunks = len(text_chunks)
 
             # Randomly select chunks based on max_items_per_document
-            selected_chunk_indices = random.sample(range(num_chunks), min(max_items_per_document, num_chunks))
+            selected_chunk_indices = random.sample(
+                range(num_chunks), min(max_items_per_document, num_chunks))
             selected_chunks = [text_chunks[i] for i in selected_chunk_indices]
 
             # items_per_chunk = max_items_per_document // num_chunks
@@ -176,21 +198,25 @@ class LegalDatasetGenerator:
                     )
 
                     query = f"Genera un documento legal con un artículo para el siguiente fragmento de texto legal:\n{chunk}"
-                    
+
                     chain = LLMChain(llm=self._llm, prompt=prompt)
                     result = chain.invoke(query)
 
                     generated_doc_json = result['text']
-                    print(f"---\n\nThis is the generated doc json: {generated_doc_json}")
-                    print(f"This is the generated doc json type: {type(generated_doc_json)}\n")
+                    print(
+                        f"---\n\nThis is the generated doc json: {generated_doc_json}")
+                    print(
+                        f"This is the generated doc json type: {type(generated_doc_json)}\n")
 
                     generated_doc_dict = json.loads(generated_doc_json)
 
                     # Update the value of 'ley' to match the title of the legal document
                     generated_doc_dict['ley'] = title
 
-                    print(f"This is the generated doc dict: {generated_doc_dict}")
-                    print(f"This is the generated doc dict type: {type(generated_doc_dict)}\n")
+                    print(
+                        f"This is the generated doc dict: {generated_doc_dict}")
+                    print(
+                        f"This is the generated doc dict type: {type(generated_doc_dict)}\n")
 
                     # generated_doc = Article.model_validate_json(generated_doc_json)
                     # print(f"---\n\nThis is the generated doc: {generated_doc}")
@@ -210,7 +236,8 @@ class LegalDatasetGenerator:
             print(f"---\n\nThis is the legal docs: {legal_docs}")
 
         return legal_docs
-    
+
+
 def generate_instruction_output_pairs(
     self,
     json_objects: List[Dict],
