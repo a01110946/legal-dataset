@@ -8,7 +8,7 @@ Description: Module for generating legal datasets from Mexican legal documents.
 import json
 import time
 import random
-import unidecode
+from utf8_encoder import convert_to_utf8
 
 from typing import List, Dict
 from pydantic import BaseModel, Field
@@ -25,25 +25,47 @@ from tqdm import tqdm
 
 from legal_document_loader import LegalDocumentLoader
 
+"""
 class Instruction(BaseModel):
     instruction: str = Field(description="The instruction for the corresponding task.")
     output: str = Field(description="The output for the corresponding task.")
-    context: str = Field(description="The context provided in the form of a fragment of the legal document to accomplish the task. It very important to extract the text accurately and completely, following the format of the legal document. Please ensure that the content of the article is correct and well-structured. If the article is 'Article 22 bis', make sure to include the term 'bis' in the article number. If the content of the article contains bullet points or numbering, make sure to include it exactly as it appears in the legal document.")
+    context: str = Field(description="The context provided in the form of a fragment of the legal document to accomplish the task. The context should always start at the beginning of an article or chapter, and it must contain the precise and complete text of the article. It can include more than one article, but it must always contain the full text of the selected article(s). If the article content includes bullet points or numbering, make sure to include them exactly as presented in the document. The context should only exclude annotations found on the legal document similar to 'Párrafo adicionado DOF 15-08-2008' or 'Artículo reformado DOF 31-01-1974'")
 
 class Task(BaseModel):
     question_answering: List[Instruction] = Field(description="List of instruction-output pairs for the Question Answering task. This contains the instruction, output, and context for each pair.")
     summarization: List[Instruction] = Field(description="List of instruction-output pairs for the Summarization task. This contains the instruction, output, and context for each pair.")
     legal_advice_generation: List[Instruction] = Field(description="List of instruction-output pairs for the Legal Advice Generation task. This contains the instruction, output, and context for each pair.")
     legal_document_drafting: List[Instruction] = Field(description="List of instruction-output pairs for the Legal Document Drafting task. This contains the instruction, output, and context for each pair.")
+"""
+
+class QuestionAnsweringInstruction(BaseModel):
+    instruction: str = Field(description="The instruction or question for the Question Answering task.")
+    output: str = Field(description="The corresponding answer or output for the Question Answering instruction.")
+    context: str = Field(description="The relevant excerpt from the legal document used to generate the Question Answering instruction and output.")
+
+class SummarizationInstruction(BaseModel):
+    instruction: str = Field(description="The instruction or prompt for the Summarization task.")
+    output: str = Field(description="The corresponding summary or output for the Summarization instruction.")
+    context: str = Field(description="The relevant excerpt from the legal document used to generate the Summarization instruction and output.")
+
+class LegalAdviceInstruction(BaseModel):
+    instruction: str = Field(description="The instruction or prompt for the Legal Advice task.")
+    output: str = Field(description="The corresponding advice or output for the Legal Advice instruction.")
+    context: str = Field(description="The relevant excerpt from the legal document used to generate the Legal Advice instruction and output.")
+
+class DocumentDraftingInstruction(BaseModel):
+    instruction: str = Field(description="The instruction or prompt for the Document Drafting task.")
+    output: str = Field(description="The corresponding drafted document or output for the Document Drafting instruction.")
+    context: str = Field(description="The relevant excerpt from the legal document used to generate the Document Drafting instruction and output.")
+
+class Task(BaseModel):
+    question_answering: List[QuestionAnsweringInstruction] = Field(description="A list of instruction-output pairs for the Question Answering task.")
+    summarization: List[SummarizationInstruction] = Field(description="A list of instruction-output pairs for the Summarization task.")
+    legal_advice: List[LegalAdviceInstruction] = Field(description="A list of instruction-output pairs for the Legal Advice task.")
+    document_drafting: List[DocumentDraftingInstruction] = Field(description="A list of instruction-output pairs for the Document Drafting task.")
 
 class Dataset(BaseModel):
     items: List[Task]
-
-    class Config:
-        json_encoders = {
-            Task: lambda v: pydantic_encoder(v),
-            Instruction: lambda v: pydantic_encoder(v),
-        }
 
 class DatasetGenerator:
     """
@@ -117,18 +139,8 @@ class DatasetGenerator:
             print(f"This is the doc type: {type(document)}\n")
             print(f"This is the doc title: {document['Title']}\n")
             print(f"This is a sample from the doc text: {document['Text'][700:900]}\n")
-            try:
-                # Attempt UTF-8 decoding
-                title = document["Title"].encode('latin-1').decode('utf-8')
-            except UnicodeDecodeError:
-                # If UTF-8 fails, use unidecode
-                # title = unidecode.unidecode(document["Title"])
-                title = document["Title"].encode('latin-1').decode('utf-8', errors="replace")
             
-                print(f"Warning: Used unidecode for title '{title}' (original: {document['Title']})")
-                        
-            #title = unidecode.unidecode(doc["Title"])  # Convert the title to ASCII
-            #title = document["Title"].encode('latin-1').decode('utf-8')
+            # title = document["Title"] 
             text = document["Text"]
 
             text_splitter = TokenTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
@@ -159,27 +171,22 @@ class DatasetGenerator:
                         Question Answering (QA):
                         - La instrucción debe ser una pregunta clara y específica basada en el contexto proporcionado, debe hacer referencia a los elementos clave del contexto, como número de artículo, nombre de la ley o similar.
                         - La salida debe ser una respuesta directa y concisa a la pregunta, utilizando la información del contexto.
-                        - El contexto debe incluir el número del artículo, el título y el texto completo del artículo o sección relevante.
+                        - El contexto siempre debe comenzar al inicio de un artículo o capítulo, debe contener el texto de manera precisa y completa del artículo; puede contener más de un artículo, pero siempre contener el texto completo del o de los artículos seleccionados. Si el contenido del artículo contiene viñetas o numeración, asegúrate de incluirlo también exactamente como se presenta en el documento. Solamente no debes incluir anotaciones de tipo "Párrafo adicionado DOF 15-08-2008" o "Artículo reformado DOF 31-01-1974".
 
                         Summarization:
                         - La instrucción debe solicitar un resumen del contenido del artículo o sección proporcionada, debe hacer referencia a los elementos clave del contexto, como número de artículo, nombre de la ley o similar.
                         - La salida debe ser un resumen conciso que capture los puntos clave del contexto.
-                        - El contexto debe incluir el número del artículo, el título y el texto completo del artículo o sección.
+                        - El contexto siempre debe comenzar al inicio de un artículo o capítulo, debe contener el texto de manera precisa y completa del artículo; puede contener más de un artículo, pero siempre contener el texto completo del o de los artículos seleccionados. Si el contenido del artículo contiene viñetas o numeración, asegúrate de incluirlo también exactamente como se presenta en el documento. Solamente no debes incluir anotaciones de tipo "Párrafo adicionado DOF 15-08-2008" o "Artículo reformado DOF 31-01-1974".
 
                         Legal Advice Generation:
                         - La instrucción debe solicitar un consejo legal basado en el contexto proporcionado, debe hacer referencia a los elementos clave del contexto, como número de artículo, nombre de la ley o similar.
                         - La salida debe ser un consejo legal claro y relevante, considerando la información del contexto.
-                        - El contexto debe incluir el número del artículo, el título y el texto completo del artículo o sección.
+                        - El contexto siempre debe comenzar al inicio de un artículo o capítulo, debe contener el texto de manera precisa y completa del artículo; puede contener más de un artículo, pero siempre contener el texto completo del o de los artículos seleccionados. Si el contenido del artículo contiene viñetas o numeración, asegúrate de incluirlo también exactamente como se presenta en el documento. Solamente no debes incluir anotaciones de tipo "Párrafo adicionado DOF 15-08-2008" o "Artículo reformado DOF 31-01-1974".
 
                         Legal Document Drafting:
                         - La instrucción debe solicitar la redacción de un documento legal basado en el contenido del artículo o sección, debe hacer referencia a los elementos clave del contexto, como número de artículo, nombre de la ley o similar.
-                        - La salida debe seguir la estructura: "CLAUSULA [número de cláusula].- [nombre de la cláusula]. [contenido de la cláusula]."
-                        - El contexto debe incluir el número del artículo, el título y el texto completo del artículo o sección.
-
-                        Para el contexto, debes asignar el texto completo extraído de los artículos que elegiste al generar  la instrucción y la salida,
-                        es muy importante que extraigas el texto de manera precisa y completa, comenzando con el número del artículo, libro o capítulo, 
-                        seguido del título y el texto completo. Si el contenido del artículo contiene viñetas o numeración, asegúrate de incluirlo también exactamente como se presenta en el documento.
-                        Solamente no debes incluir anotaciones de tipo "Párrafo adicionado DOF 15-08-2008" o "Artículo reformado DOF 31-01-1974".
+                        - La salida debe seguir la estructura: "CLAUSULA [número de cláusula en número ordinal o número romano, en mayúsculas].- [nombre de la cláusula]. [contenido de la cláusula]."
+                        - El contexto siempre debe comenzar al inicio de un artículo o capítulo, debe contener el texto de manera precisa y completa del artículo; puede contener más de un artículo, pero siempre contener el texto completo del o de los artículos seleccionados. Si el contenido del artículo contiene viñetas o numeración, asegúrate de incluirlo también exactamente como se presenta en el documento. Solamente no debes incluir anotaciones de tipo "Párrafo adicionado DOF 15-08-2008" o "Artículo reformado DOF 31-01-1974".
 
                         El formato que deben seguir los ejemplos de tareas es el siguiente:\n\n{format_instructions}\n\n
                         

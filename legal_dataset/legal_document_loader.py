@@ -14,7 +14,6 @@ import pandas as pd
 import requests
 from utf8_encoder import convert_to_utf8
 
-
 def remove_new_lines(lines: list) -> list:
     clean_text = []
     for line in lines:
@@ -69,7 +68,7 @@ class LegalDocumentLoader:
         with zipfile.ZipFile(zip_filename, "r") as zip_ref:
             zip_ref.extractall(extract_directory)
 
-        print(f"Extracted ZIP file to directory: {extract_directory}\n\n")
+        # print(f"Extracted ZIP file to directory: {extract_directory}\n\n")
 
         legal_documents = []
 
@@ -78,41 +77,40 @@ class LegalDocumentLoader:
             for file in files:
                 if file.endswith(".txt"):
                     file_path = os.path.join(path, file)
-                    print(f"Processing file: {file_path}\n\n")
+                    # print(f"Processing file: {file_path}\n\n")
                     try:
                         with open(file_path, "r", encoding="latin-1") as f:
                             text = f.read().splitlines()
                             clean_text = remove_new_lines(text)
-                            print(f"Cleaned text: {clean_text[0:1000]}\n")
+                            # print(f"Cleaned text: {clean_text[0:1000]}\n")
                             if len(clean_text) != 0:
                                 # Extract the title from the first line
                                 title = clean_text[0].strip()
-                                print(f"Extracted title: {title}\n")
+                                title = convert_to_utf8(
+                                    title.encode('latin-1'))
+                                # print(f"Extracted title: {title}\n")
                                 # Join the remaining lines as the content
                                 content = "\n".join(clean_text[1:])
                                 content = convert_to_utf8(
                                     content.encode('latin-1'))
-                                print(
-                                    f"Extracted content: {content[0:1000]}\n")
+                                # print(f"Extracted content: {content[0:1000]}\n")
                                 legal_documents.append({
                                     "Title": title,
                                     "Filename": file,
                                     "Text": content
                                 })
-                                print(
-                                    f"Extracted legal document: {legal_documents}")
+                                # print(f"Extracted legal document: {legal_documents}")
                     except UnicodeDecodeError:
                         print(
                             f"**Skipping file {file_path} due to encoding issues.**\n")
                     except Exception as e:
                         print(e)
 
-        print(f"\n\nExtracted legal documents: {legal_documents}")
-        print(f"Number of legal documents extracted: {len(legal_documents)}")
-        print(f"Type of legal documents: {type(legal_documents)}")
-        print(f"Example legal document: {legal_documents[0]}")
-        print(
-            f"Example legal document text: {legal_documents[0]['Text'][500:700]}")
+        # print(f"\n\nExtracted legal documents: {legal_documents}")
+        # print(f"Number of legal documents extracted: {len(legal_documents)}")
+        # print(f"Type of legal documents: {type(legal_documents)}")
+        # print(f"Example legal document: {legal_documents[0]}")
+        # print(f"Example legal document text: {legal_documents[0]['Text'][500:700]}")
 
         # Clean up the downloaded ZIP file and extracted directory
         os.remove(zip_filename)
@@ -123,7 +121,7 @@ class LegalDocumentLoader:
                 os.rmdir(os.path.join(path, folder))
         os.rmdir(extract_directory)
 
-        print(f"\nCleaned up downloaded ZIP file and extracted directory.")
+        # print(f"\nCleaned up downloaded ZIP file and extracted directory.")
 
         return legal_documents
 
@@ -152,8 +150,18 @@ class LegalDocumentLoader:
         text_list = df['Clean Text'].tolist()
 
         # Remove any None or empty values from the list
-        legal_documents = [
-            doc for doc in legal_documents if doc and isinstance(doc, str)]
+        text_list = [doc for doc in text_list if doc and isinstance(doc, str)]
+
+        # Initialize an empty list called 'legal_documents'
+        legal_documents = []
+
+        # Iterate through the elements of 'name_list' and 'text' simultaneously using zip
+        for name_item, text_item in zip(name_list, text_list):
+            # Create a dictionary with keys 'name' and 'text', and assign corresponding values
+            data_dict = {'Title': name_item.title(), 'Text': text_item}
+
+            # Append the created dictionary to the 'data' list
+            legal_documents.append(data_dict)
 
         return legal_documents
 
