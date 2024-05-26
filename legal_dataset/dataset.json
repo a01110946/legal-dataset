@@ -1,0 +1,842 @@
+[
+  {
+    "question_answering": [
+      {
+        "instruction": "¿Quiénes podrán convocar a los Secretarios de Estado, directores y administradores de entidades paraestatales, así como a los titulares de órganos autónomos, para informar bajo protesta de decir verdad?",
+        "output": "Cualquiera de las Cámaras podrá convocar a los Secretarios de Estado, a los directores y administradores de las entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad, cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades o para que respondan a interpelaciones o preguntas.",
+        "context": "Cualquiera de las Cámaras podrá convocar a los Secretarios de Estado, a los directores y administradores de las entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad, cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades o para que respondan a interpelaciones o preguntas."
+      },
+      {
+        "instruction": "¿Qué atribuciones tienen las Cámaras respecto a la integración de comisiones para investigar el funcionamiento de organismos descentralizados y empresas de participación estatal mayoritaria?",
+        "output": "Las Cámaras, a pedido de una cuarta parte de sus miembros, tratándose de los diputados, y de la mitad, si se trata de los Senadores, tienen la facultad de integrar comisiones para investigar el funcionamiento de dichos organismos descentralizados y empresas de participación estatal mayoritaria. Los resultados de las investigaciones se harán del conocimiento del Ejecutivo Federal.",
+        "context": "Las Cámaras, a pedido de una cuarta parte de sus miembros, tratándose de los diputados, y de la mitad, si se trata de los Senadores, tienen la facultad de integrar comisiones para investigar el funcionamiento de dichos organismos descentralizados y empresas de participación estatal mayoritaria. Los resultados de las investigaciones se harán del conocimiento del Ejecutivo Federal."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resuma el contenido del artículo 93 en relación con la obligación de los Secretarios del Despacho ante el Congreso.",
+        "output": "Los Secretarios del Despacho, luego que esté abierto el periodo de sesiones ordinarias, darán cuenta al Congreso del estado que guarden sus respectivos ramos. Cualquiera de las Cámaras podrá convocar a los Secretarios de Estado, a los directores y administradores de las entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad, cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades o para que respondan a interpelaciones o preguntas.",
+        "context": "Los Secretarios del Despacho, luego que esté abierto el periodo de sesiones ordinarias, darán cuenta al Congreso del estado que guarden sus respectivos ramos. Cualquiera de las Cámaras podrá convocar a los Secretarios de Estado, a los directores y administradores de las entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad, cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades o para que respondan a interpelaciones o preguntas."
+      },
+      {
+        "instruction": "Resuma el contenido del artículo 94 en relación con la estructura del Poder Judicial de la Federación.",
+        "output": "Se deposita el ejercicio del Poder Judicial de la Federación en una Suprema Corte de Justicia, en un Tribunal Electoral, en Tribunales Colegiados y Unitarios de Circuito y en Juzgados de Distrito. La administración, vigilancia y disciplina del Poder Judicial de la Federación, con excepción de la Suprema Corte de Justicia de la Nación, estará a cargo del Consejo de la Judicatura Federal en los términos que, conforme a las bases que señala esta Constitución, establezcan las leyes.",
+        "context": "Se deposita el ejercicio del Poder Judicial de la Federación en una Suprema Corte de Justicia, en un Tribunal Electoral, en Tribunales Colegiados y Unitarios de Circuito y en Juzgados de Distrito. La administración, vigilancia y disciplina del Poder Judicial de la Federación, con excepción de la Suprema Corte de Justicia de la Nación, estará a cargo del Consejo de la Judicatura Federal en los términos que, conforme a las bases que señala esta Constitución, establezcan las leyes."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Proporcione un consejo legal sobre la convocatoria de los Secretarios de Estado, directores y administradores de entidades paraestatales por parte de las Cámaras.",
+        "output": "Es importante tener en cuenta que las Cámaras tienen la facultad de convocar a los Secretarios de Estado, directores y administradores de entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad, especialmente cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades. Es fundamental que los convocados respondan a interpelaciones o preguntas de manera veraz y oportuna.",
+        "context": "Es importante tener en cuenta que las Cámaras tienen la facultad de convocar a los Secretarios de Estado, directores y administradores de entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad, especialmente cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades. Es fundamental que los convocados respondan a interpelaciones o preguntas de manera veraz y oportuna."
+      },
+      {
+        "instruction": "Ofrezca asesoramiento legal sobre la integración de comisiones para investigar el funcionamiento de organismos descentralizados y empresas de participación estatal mayoritaria por parte de las Cámaras.",
+        "output": "Las Cámaras, a pedido de una cuarta parte de sus miembros, tratándose de los diputados, y de la mitad, si se trata de los Senadores, tienen la facultad de integrar comisiones para investigar el funcionamiento de dichos organismos descentralizados y empresas de participación estatal mayoritaria. Es importante que los resultados de las investigaciones se comuniquen al Ejecutivo Federal de manera transparente y oportuna.",
+        "context": "Las Cámaras, a pedido de una cuarta parte de sus miembros, tratándose de los diputados, y de la mitad, si se trata de los Senadores, tienen la facultad de integrar comisiones para investigar el funcionamiento de dichos organismos descentralizados y empresas de participación estatal mayoritaria. Es importante que los resultados de las investigaciones se comuniquen al Ejecutivo Federal de manera transparente y oportuna."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacte un documento legal que establezca las obligaciones de los Secretarios del Despacho ante el Congreso en relación con la rendición de cuentas.",
+        "output": "En cumplimiento de lo establecido en el artículo 93 de la Constitución, los Secretarios del Despacho deben dar cuenta al Congreso del estado que guarden sus respectivos ramos una vez abierto el periodo de sesiones ordinarias. Asimismo, se establece que las Cámaras tienen la facultad de convocar a los Secretarios de Estado, directores y administradores de entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades.",
+        "context": "En cumplimiento de lo establecido en el artículo 93 de la Constitución, los Secretarios del Despacho deben dar cuenta al Congreso del estado que guarden sus respectivos ramos una vez abierto el periodo de sesiones ordinarias. Asimismo, se establece que las Cámaras tienen la facultad de convocar a los Secretarios de Estado, directores y administradores de entidades paraestatales, así como a los titulares de los órganos autónomos, para que informen bajo protesta de decir verdad cuando se discuta una ley o se estudie un negocio concerniente a sus respectivos ramos o actividades."
+      },
+      {
+        "instruction": "Elabore un documento legal que describa la estructura y funciones del Poder Judicial de la Federación según lo establecido en el artículo 94.",
+        "output": "Conforme al artículo 94 de la Constitución, el ejercicio del Poder Judicial de la Federación se deposita en una Suprema Corte de Justicia, un Tribunal Electoral, Tribunales Colegiados y Unitarios de Circuito, y Juzgados de Distrito. Se establece que la administración, vigilancia y disciplina del Poder Judicial, con excepción de la Suprema Corte de Justicia, estará a cargo del Consejo de la Judicatura Federal de acuerdo a las bases establecidas en la Constitución y las leyes.",
+        "context": "Conforme al artículo 94 de la Constitución, el ejercicio del Poder Judicial de la Federación se deposita en una Suprema Corte de Justicia, un Tribunal Electoral, Tribunales Colegiados y Unitarios de Circuito, y Juzgados de Distrito. Se establece que la administración, vigilancia y disciplina del Poder Judicial, con excepción de la Suprema Corte de Justicia, estará a cargo del Consejo de la Judicatura Federal de acuerdo a las bases establecidas en la Constitución y las leyes."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica quién puede solicitar el cumplimiento sustituto de las sentencias de amparo y en qué circunstancias puede ser decretado de oficio por la Suprema Corte de Justicia de la Nación.",
+        "output": "El cumplimiento sustituto de las sentencias de amparo puede ser solicitado por el quejoso al órgano jurisdiccional, o decretado de oficio por la Suprema Corte de Justicia de la Nación, cuando la ejecución de la sentencia afecte a la sociedad en mayor proporción a los beneficios que pudiera obtener el quejoso, o cuando, por las circunstancias del caso, sea imposible o desproporcionadamente gravoso restituir la situación que imperaba antes de la violación.",
+        "context": "El cumplimiento sustituto de las sentencias de amparo podrá ser solicitado por el quejoso al órgano jurisdiccional, o decretado de oficio por la Suprema Corte de Justicia de la Nación, cuando la ejecución de la sentencia afecte a la sociedad en mayor proporción a los beneficios que pudiera obtener el quejoso, o cuando, por las circunstancias del caso, sea imposible o desproporcionadamente gravoso restituir la situación que imperaba antes de la violación."
+      },
+      {
+        "instruction": "¿Qué sanciones se impondrán a los servidores públicos por actos u omisiones que redunden en perjuicio de los intereses públicos fundamentales o de su buen despacho?",
+        "output": "Se impondrán, mediante juicio político, las sanciones indicadas en el artículo 110 a los servidores públicos señalados en el mismo precepto, cuando en el ejercicio de sus funciones incurran en actos u omisiones que redunden en perjuicio de los intereses públicos fundamentales o de su buen despacho.",
+        "context": "Se impondrán, mediante juicio político, las sanciones indicadas en el artículo 110 a los servidores públicos señalados en el mismo precepto, cuando en el ejercicio de sus funciones incurran en actos u omisiones que redunden en perjuicio de los intereses públicos fundamentales o de su buen despacho."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume el procedimiento para la aplicación de sanciones administrativas a los servidores públicos por actos u omisiones que afecten la legalidad, honradez, lealtad, imparcialidad y eficiencia en el desempeño de sus funciones.",
+        "output": "Las sanciones administrativas a los servidores públicos por actos u omisiones que afecten la legalidad, honradez, lealtad, imparcialidad y eficiencia en el desempeño de sus empleos, cargos o comisiones consistirán en amonestación, suspensión, destitución e inhabilitación, así como en sanciones económicas, y deberán establecerse de acuerdo con los beneficios económicos que, en su caso, haya obtenido el responsable y con los daños y perjuicios patrimoniales causados por los actos u omisiones. La ley establecerá los procedimientos para la investigación y sanción de dichos actos u omisiones.",
+        "context": "Las sanciones administrativas a los servidores públicos por actos u omisiones que afecten la legalidad, honradez, lealtad, imparcialidad y eficiencia en el desempeño de sus empleos, cargos o comisiones consistirán en amonestación, suspensión, destitución e inhabilitación, así como en sanciones económicas, y deberán establecerse de acuerdo con los beneficios económicos que, en su caso, haya obtenido el responsable y con los daños y perjuicios patrimoniales causados por los actos u omisiones. La ley establecerá los procedimientos para la investigación y sanción de dichos actos u omisiones."
+      },
+      {
+        "instruction": "Resume las bases mínimas del Sistema Nacional Anticorrupción para la coordinación entre las autoridades competentes en la prevención, detección y sanción de responsabilidades administrativas y hechos de corrupción.",
+        "output": "El Sistema Nacional Anticorrupción contará con un Comité Coordinador integrado por titulares de diversas instituciones, un Comité de Participación Ciudadana, y se sujetará a bases mínimas que incluyen la coordinación con sistemas locales, el diseño de políticas integrales, la sistematización de información, entre otros aspectos.",
+        "context": "El Sistema Nacional Anticorrupción contará con un Comité Coordinador integrado por titulares de diversas instituciones, un Comité de Participación Ciudadana, y se sujetará a bases mínimas que incluyen la coordinación con sistemas locales, el diseño de políticas integrales, la sistematización de información, entre otros aspectos."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Proporciona asesoramiento legal sobre quién puede solicitar el cumplimiento sustituto de las sentencias de amparo y en qué circunstancias puede ser decretado de oficio por la Suprema Corte de Justicia de la Nación.",
+        "output": "El cumplimiento sustituto de las sentencias de amparo puede ser solicitado por el quejoso al órgano jurisdiccional, o decretado de oficio por la Suprema Corte de Justicia de la Nación, cuando la ejecución de la sentencia afecte a la sociedad en mayor proporción a los beneficios que pudiera obtener el quejoso, o cuando, por las circunstancias del caso, sea imposible o desproporcionadamente gravoso restituir la situación que imperaba antes de la violación.",
+        "context": "El cumplimiento sustituto de las sentencias de amparo puede ser solicitado por el quejoso al órgano jurisdiccional, o decretado de oficio por la Suprema Corte de Justicia de la Nación, cuando la ejecución de la sentencia afecte a la sociedad en mayor proporción a los beneficios que pudiera obtener el quejoso, o cuando, por las circunstancias del caso, sea imposible o desproporcionadamente gravoso restituir la situación que imperaba antes de la violación."
+      },
+      {
+        "instruction": "Ofrece asesoramiento legal sobre las sanciones que se impondrán a los servidores públicos por actos u omisiones que redunden en perjuicio de los intereses públicos fundamentales o de su buen despacho.",
+        "output": "Se impondrán, mediante juicio político, las sanciones indicadas en el artículo 110 a los servidores públicos señalados en el mismo precepto, cuando en el ejercicio de sus funciones incurran en actos u omisiones que redunden en perjuicio de los intereses públicos fundamentales o de su buen despacho.",
+        "context": "Se impondrán, mediante juicio político, las sanciones indicadas en el artículo 110 a los servidores públicos señalados en el mismo precepto, cuando en el ejercicio de sus funciones incurran en actos u omisiones que redunden en perjuicio de los intereses públicos fundamentales o de su buen despacho."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo que establezca las bases mínimas del Sistema Nacional Anticorrupción para la coordinación entre las autoridades competentes en la prevención, detección y sanción de responsabilidades administrativas y hechos de corrupción.",
+        "output": "Artículo 113. El Sistema Nacional Anticorrupción contará con un Comité Coordinador integrado por titulares de diversas instituciones, un Comité de Participación Ciudadana, y se sujetará a bases mínimas que incluyen la coordinación con sistemas locales, el diseño de políticas integrales, la sistematización de información, entre otros aspectos.",
+        "context": "El Sistema Nacional Anticorrupción contará con un Comité Coordinador integrado por titulares de diversas instituciones, un Comité de Participación Ciudadana, y se sujetará a bases mínimas que incluyen la coordinación con sistemas locales, el diseño de políticas integrales, la sistematización de información, entre otros aspectos."
+      },
+      {
+        "instruction": "Redacta un artículo que resuma el procedimiento para la aplicación de sanciones administrativas a los servidores públicos por actos u omisiones que afecten la legalidad, honradez, lealtad, imparcialidad y eficiencia en el desempeño de sus funciones.",
+        "output": "Artículo 109. Las sanciones administrativas a los servidores públicos por actos u omisiones que afecten la legalidad, honradez, lealtad, imparcialidad y eficiencia en el desempeño de sus empleos, cargos o comisiones consistirán en amonestación, suspensión, destitución e inhabilitación, así como en sanciones económicas, y deberán establecerse de acuerdo con los beneficios económicos que, en su caso, haya obtenido el responsable y con los daños y perjuicios patrimoniales causados por los actos u omisiones. La ley establecerá los procedimientos para la investigación y sanción de dichos actos u omisiones.",
+        "context": "Las sanciones administrativas a los servidores públicos por actos u omisiones que afecten la legalidad, honradez, lealtad, imparcialidad y eficiencia en el desempeño de sus empleos, cargos o comisiones consistirán en amonestación, suspensión, destitución e inhabilitación, así como en sanciones económicas, y deberán establecerse de acuerdo con los beneficios económicos que, en su caso, haya obtenido el responsable y con los daños y perjuicios patrimoniales causados por los actos u omisiones. La ley establecerá los procedimientos para la investigación y sanción de dichos actos u omisiones."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica el término que se refiere a la aplicación de agua nacional para el uso particular de las personas y del hogar, incluyendo el riego de jardines y árboles de ornato, según el fragmento de texto legal proporcionado.",
+        "output": "Uso Doméstico",
+        "context": "LV.  \"Uso Doméstico\": La aplicación de agua nacional para el uso particular de las personas y del hogar, riego de sus jardines y de árboles de ornato, incluyendo el abrevadero de animales domésticos que no constituya una actividad lucrativa, en términos del Artículo 115 de la Constitución Política de los Estados Unidos Mexicanos;"
+      },
+      {
+        "instruction": "¿Qué término se utiliza para referirse al aprovechamiento de paso de aguas nacionales en actividades dirigidas a la reproducción controlada, pre engorda y engorda de especies de la fauna y flora realizadas en instalaciones en aguas nacionales, por medio de técnicas de cría o cultivo, que sean susceptibles de explotación comercial, ornamental o recreativa?",
+        "output": "Uso en Acuacultura",
+        "context": "LVII.  \"Uso en Acuacultura\": El aprovechamiento de paso de aguas nacionales en el conjunto de actividades dirigidas a la reproducción controlada, pre engorda y engorda de especies de la fauna y flora realizadas en instalaciones en aguas nacionales, por medio de técnicas de cría o cultivo, que sean susceptibles de explotación comercial, ornamental o recreativa;"
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume en una oración el contenido del artículo 4 de la Ley de Aguas Nacionales, según el fragmento de texto legal proporcionado.",
+        "output": "El artículo 4 establece que la autoridad y administración en materia de aguas nacionales y sus bienes públicos inherentes corresponde al Ejecutivo Federal, quien puede ejercerla directamente o a través de 'la Comisión'.",
+        "context": "ARTÍCULO 4. La autoridad y administración en materia de aguas nacionales y de sus bienes públicos inherentes corresponde al Ejecutivo Federal, quien la ejercerá directamente o a través de 'la Comisión'."
+      },
+      {
+        "instruction": "Realiza un resumen conciso del artículo 6 de la Ley de Aguas Nacionales basándote en el fragmento de texto legal proporcionado.",
+        "output": "El artículo 6 establece las competencias del Ejecutivo Federal, que incluyen reglamentar el control de la extracción y explotación de aguas nacionales, expedir decretos para zonas reglamentadas y de veda, así como declaratorias de rescate y expropiación, entre otras atribuciones.",
+        "context": "ARTÍCULO 6. Compete al Ejecutivo Federal: Reglamentar por cuenca hidrológica y acuífero, el control de la extracción así como la explotación, uso o aprovechamiento de las aguas nacionales del subsuelo, inclusive las que hayan sido libremente alumbradas, y las superficiales, en los términos del Título Quinto de la presente Ley; y expedir los decretos para el establecimiento, modificación o supresión de zonas reglamentadas que requieren un manejo específico para garantizar la sustentabilidad hidrológica o cuando se comprometa la sustentabilidad de los ecosistemas vitales en áreas determinadas en acuíferos, cuencas hidrológicas, o regiones hidrológicas;"
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Proporciona asesoramiento legal sobre quién tiene la competencia para reglamentar el control de la extracción y explotación de aguas nacionales, según la Ley de Aguas Nacionales.",
+        "output": "El Ejecutivo Federal tiene la competencia para reglamentar el control de la extracción y explotación de aguas nacionales, según la Ley de Aguas Nacionales.",
+        "context": "ARTÍCULO 6. Compete al Ejecutivo Federal: Reglamentar por cuenca hidrológica y acuífero, el control de la extracción así como la explotación, uso o aprovechamiento de las aguas nacionales del subsuelo, inclusive las que hayan sido libremente alumbradas, y las superficiales, en los términos del Título Quinto de la presente Ley; y expedir los decretos para el establecimiento, modificación o supresión de zonas reglamentadas que requieren un manejo específico para garantizar la sustentabilidad hidrológica o cuando se comprometa la sustentabilidad de los ecosistemas vitales en áreas determinadas en acuíferos, cuencas hidrológicas, o regiones hidrológicas;"
+      },
+      {
+        "instruction": "Ofrece asesoramiento legal sobre quién tiene la facultad de expedir declaratorias de zonas de reserva de aguas nacionales superficiales o del subsuelo, según la Ley de Aguas Nacionales.",
+        "output": "El Ejecutivo Federal tiene la facultad de expedir declaratorias de zonas de reserva de aguas nacionales superficiales o del subsuelo, según la Ley de Aguas Nacionales.",
+        "context": "ARTÍCULO 6. Compete al Ejecutivo Federal: Expedir las declaratorias de zonas de reserva de aguas nacionales superficiales o del subsuelo, así como los decretos para su modificación o supresión;"
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo de ley que establezca las competencias del Ejecutivo Federal en la gestión de recursos hídricos, basándote en el fragmento de texto legal proporcionado.",
+        "output": "ARTÍCULO XX. Compete al Ejecutivo Federal la formulación de la política hídrica nacional, la integración del Programa Nacional Hídrico, la expedición de disposiciones generales en materia de aguas nacionales, la atención de asuntos estratégicos y de seguridad nacional en materia hídrica, y la promoción del uso eficiente del agua y su conservación, entre otras atribuciones.",
+        "context": "ARTÍCULO 7. Se declara de utilidad pública: I. La gestión integrada de los recursos hídricos, superficiales y del subsuelo, a partir de las cuencas hidrológicas en el territorio nacional, como prioridad y asunto de seguridad nacional; II. La protección, mejoramiento, conservación y restauración de cuencas hidrológicas, acuíferos, cauces, vasos y demás depósitos de agua de propiedad nacional, zonas de captación de fuentes de abastecimiento, zonas federales, así como la infiltración natural o artificial de aguas para reabastecer mantos acuíferos acorde con las 'Normas Oficiales Mexicanas' y la derivación de las aguas de una cuenca o región hidrológica hacia otras;"
+      },
+      {
+        "instruction": "Redacta un artículo de ley que establezca las atribuciones de la Comisión Nacional del Agua en el ámbito nacional, basándote en el fragmento de texto legal proporcionado.",
+        "output": "ARTÍCULO XXI. La Comisión Nacional del Agua tiene la atribución de fungir como la Autoridad en materia de la cantidad y calidad de las aguas y su gestión en el territorio nacional, formular la política hídrica nacional, integrar el Programa Nacional Hídrico, y emitir disposiciones de carácter general en materia de aguas nacionales y de sus bienes públicos inherentes, entre otras funciones.",
+        "context": "Son atribuciones de 'la Comisión' en su Nivel Nacional, las siguientes: I. Fungir como la Autoridad en materia de la cantidad y de la calidad de las aguas y su gestión en el territorio nacional y ejercer en consecuencia aquellas atribuciones que conforme a la presente Ley corresponden a la autoridad en materia hídrica, dentro del ámbito de la competencia federal, con apego a la descentralización del sector agua, excepto las que debe ejercer directamente el Ejecutivo Federal o 'la Secretaría' y las que estén bajo la responsabilidad de los Gobiernos de los estados, del Distrito Federal o municipios;"
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica los recursos a los que se destinarán los recursos del Fondo de acuerdo al artículo 82.",
+        "output": "Los recursos del Fondo se destinarán a: I. Acciones para la adaptación al cambio climático atendiendo prioritariamente a los grupos sociales ubicados en las zonas más vulnerables del país; II. Proyectos que contribuyan simultáneamente a la mitigación y adaptación al cambio climático, incrementando el capital natural, con acciones orientadas, entre otras, a revertir la deforestación y degradación; conservar y restaurar suelos para mejorar la captura de carbono; implementar prácticas agropecuarias sustentables; recargar los mantos acuíferos; preservar la integridad de playas, costas, zona federal marítimo terrestre, terrenos ganados al mar y cualquier otro depósito que se forme con aguas marítimas, humedales y manglares; promover la conectividad de los ecosistemas a través de corredores biológicos, conservar la vegetación riparia y para aprovechar sustentablemente la biodiversidad.",
+        "context": "Artículo 82. Los recursos del Fondo se destinarán a: I. Acciones para la adaptación al cambio climático atendiendo prioritariamente a los grupos sociales ubicados en las zonas más vulnerables del país; II. Proyectos que contribuyan simultáneamente a la mitigación y adaptación al cambio climático, incrementando el capital natural, con acciones orientadas, entre otras, a revertir la deforestación y degradación; conservar y restaurar suelos para mejorar la captura de carbono; implementar prácticas agropecuarias sustentables; recargar los mantos acuíferos; preservar la integridad de playas, costas, zona federal marítimo terrestre, terrenos ganados al mar y cualquier otro depósito que se forme con aguas marítimas, humedales y manglares; promover la conectividad de los ecosistemas a través de corredores biológicos, conservar la vegetación riparia y para aprovechar sustentablemente la biodiversidad."
+      },
+      {
+        "instruction": "¿Cuáles son las acciones que se llevarán a cabo en materia de mitigación de emisiones según el artículo 82?",
+        "output": "Desarrollo y ejecución de acciones de mitigación de emisiones conforme a las prioridades de la Estrategia Nacional, el Programa y los programas de las Entidades Federativas en materia de cambio climático; particularmente en proyectos relacionados con eficiencia energética; desarrollo de energías renovables y bioenergéticos de segunda generación; y eliminación o aprovechamiento de emisiones fugitivas de metano y gas asociado a la explotación de los yacimientos minerales de carbón, así como de desarrollo de sistemas de transporte sustentable.",
+        "context": "Artículo 82. Los recursos del Fondo se destinarán a: Desarrollo y ejecución de acciones de mitigación de emisiones conforme a las prioridades de la Estrategia Nacional, el Programa y los programas de las Entidades Federativas en materia de cambio climático; particularmente en proyectos relacionados con eficiencia energética; desarrollo de energías renovables y bioenergéticos de segunda generación; y eliminación o aprovechamiento de emisiones fugitivas de metano y gas asociado a la explotación de los yacimientos minerales de carbón, así como de desarrollo de sistemas de transporte sustentable."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resumen los objetivos y acciones que se establecen en los artículos 82 y 83 en relación con el Fondo para el Cambio Climático.",
+        "output": "El artículo 82 establece que los recursos del Fondo se destinarán a acciones para la adaptación al cambio climático, proyectos de mitigación y adaptación, desarrollo de energías renovables, entre otras. Por otro lado, el artículo 83 menciona que el Fondo operará a través de un Fideicomiso público creado por la Secretaría de Hacienda y Crédito Público, y contará con un Comité Técnico presidido por la Secretaría de Medio Ambiente y Recursos Naturales, con representantes de diversas Secretarías para la ejecución de acciones relacionadas con el cambio climático.",
+        "context": "Artículo 82. Los recursos del Fondo se destinarán a: Acciones para la adaptación al cambio climático, proyectos que contribuyan a la mitigación y adaptación, desarrollo de energías renovables, entre otros. Artículo 83. El Fondo operará a través de un Fideicomiso público creado por la Secretaría de Hacienda y Crédito Público, con un Comité Técnico presidido por la Secretaría de Medio Ambiente y Recursos Naturales, y representantes de diversas Secretarías para la ejecución de acciones relacionadas con el cambio climático."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Basándote en el artículo 106, ¿qué derechos tiene toda persona en relación con la información sobre cambio climático?",
+        "output": "Toda persona tiene derecho a que las autoridades en materia de cambio climático, así como la Comisión, el Consejo y el Sistema de Información sobre el Cambio Climático pongan a su disposición la información que les soliciten en los términos previstos por las leyes.",
+        "context": "Artículo 106. Toda persona tendrá derecho a que las autoridades en materia de cambio climático, así como la Comisión, el Consejo y el Sistema de Información sobre el Cambio Climático pongan a su disposición la información que les soliciten en los términos previstos por las leyes."
+      },
+      {
+        "instruction": "¿Cuáles son las medidas de seguridad que la Secretaría puede ordenar según el artículo 113 en caso de riesgo inminente por incumplimiento de la Ley?",
+        "output": "La Secretaría puede ordenar las medidas de seguridad previstas en la Ley General del Equilibrio Ecológico y Protección al Ambiente en caso de riesgo inminente derivado de contravenir las disposiciones de la presente Ley y la Ley General del Equilibrio Ecológico y la Protección al Ambiente.",
+        "context": "Artículo 113. Cuando de las visitas de inspección realizadas a las personas físicas o morales responsables de las fuentes emisoras sujetas a reporte se determine que existe riesgo inminente derivado de contravenir las disposiciones de la presente Ley y la Ley General del Equilibrio Ecológico y la Protección al Ambiente; asimismo, cuando los actos u omisiones pudieran dar lugar a la imposición de sanciones, la Secretaría podrá ordenar las medidas de seguridad previstas en la Ley General del Equilibrio Ecológico y Protección al Ambiente."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo que establezca la importancia de la participación social en la mitigación y adaptación al cambio climático, basándote en el artículo 109.",
+        "output": "Artículo [Número]. La participación social es de vital importancia en la mitigación y adaptación al cambio climático. Los tres órdenes de gobierno deben promover la participación corresponsable de la sociedad en la planeación, ejecución y vigilancia de la Política Nacional de Cambio Climático, fomentando la colaboración entre organizaciones sociales y privadas para llevar a cabo acciones efectivas en este ámbito.",
+        "context": "Artículo 109. Los tres órdenes de gobierno deberán promover la participación corresponsable de la sociedad en la planeación, ejecución y vigilancia de la Política Nacional de Cambio Climático."
+      },
+      {
+        "instruction": "Redacta un artículo que establezca las sanciones aplicables en caso de incumplimiento de la entrega de información requerida según el artículo 114.",
+        "output": "Artículo [Número]. En caso de incumplimiento en la entrega de la información requerida, la Procuraduría Federal de Protección al Ambiente podrá imponer una multa de quinientos a tres mil días de salario mínimo general vigente en el Distrito Federal, sin perjuicio del cumplimiento inmediato de dicha obligación. En caso de falsedad en la información proporcionada, la multa será de tres mil a diez mil días de salario mínimo, independientemente de otras responsabilidades civiles y penales que puedan derivarse.",
+        "context": "Artículo 114. En caso de que las personas físicas o morales responsables de las fuentes emisoras sujetas a reporte no entreguen la información, datos o documentos requeridos por la Secretaría en el plazo señalado, la Procuraduría Federal de Protección al Ambiente podrá imponer una multa de quinientos a tres mil días de salario mínimo general vigente en el Distrito Federal, sin menoscabo del cumplimiento inmediato de dicha obligación."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica los criterios e indicadores de sustentabilidad, deforestación y degradación de los ecosistemas forestales.",
+        "output": "Los criterios e indicadores de sustentabilidad, deforestación y degradación de los ecosistemas forestales son parte de los datos que deben contener el Inventario Nacional Forestal y de Suelos. Estos criterios e indicadores son importantes para la formulación, ejecución, control y seguimiento de programas y acciones en materia forestal, así como para la evaluación y seguimiento de los planes a largo, mediano y corto plazo, y la elaboración de programas y estrategias de adaptación y mitigación del cambio climático.",
+        "context": "VI. Los criterios e indicadores de sustentabilidad, deforestación y degradación de los ecosistemas forestales; VII. Los registros de la infraestructura forestal existente; VIII. La información, basada en el Sistema Nacional de Medición, Reporte y Verificación, de la reducción de emisiones derivadas de acciones de prevención y combate de la deforestación y degradación forestal, y IX. Los demás datos que señale el Reglamento."
+      },
+      {
+        "instruction": "¿Cuáles son los datos que serán la base para la formulación, ejecución, control y seguimiento de programas y acciones en materia forestal?",
+        "output": "Los datos comprendidos en el Inventario Nacional Forestal y de Suelos serán la base para la formulación, ejecución, control y seguimiento de programas y acciones en materia forestal. Estos datos incluyen el cálculo del volumen de madera o biomasa forestal en pie, la integración de la zonificación forestal, la ordenación forestal y el ordenamiento ecológico del territorio, la evaluación y seguimiento de los planes a largo, mediano y corto plazo, y la elaboración de programas y estrategias de adaptación y mitigación del cambio climático.",
+        "context": "Artículo 47. Los datos comprendidos en el Inventario Nacional Forestal y de Suelos serán la base para: I. La formulación, ejecución, control y seguimiento de programas y acciones en materia forestal; II. El cálculo del volumen de madera o biomasa forestal en pie, su incremento y el volumen de corta o aprovechamiento potencial; III. La integración de la zonificación forestal, la ordenación forestal y el ordenamiento ecológico del territorio; IV. La evaluación y seguimiento de los planes a largo, mediano y corto plazo, y V. La elaboración de programas y estrategias de adaptación y mitigación del cambio climático."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume los criterios que se deben considerar en la formulación del Inventario Nacional Forestal y de Suelos.",
+        "output": "En la formulación del Inventario Nacional Forestal y de Suelos se deben considerar criterios como la delimitación por cuencas hidrográficas, la naturaleza y diversidad de los ecosistemas forestales, la vocación de los terrenos forestales, los impactos en los ecosistemas por actividades humanas, y la delimitación de las Unidades de Manejo Forestal.",
+        "context": "Artículo 48. En la formulación del Inventario Nacional Forestal y de Suelos, se deberán considerar los siguientes criterios: I. La delimitación por cuencas hidrográficas; II. La naturaleza, características, diversidad de los ecosistemas forestales existentes en el territorio nacional; III. La vocación de los terrenos forestales y preferentemente forestales; IV. Los impactos existentes en los ecosistemas por efecto de las actividades económicas o de otras actividades humanas o fenómenos naturales, y V. La delimitación de las Unidades de Manejo Forestal."
+      },
+      {
+        "instruction": "Resume las disposiciones sobre la zonificación forestal que debe llevar a cabo la Comisión.",
+        "output": "La Comisión debe llevar a cabo la zonificación para efectos de planeación, basándose en el Inventario Nacional Forestal y de Suelos y en los programas de ordenamiento ecológico. El Reglamento determinará los criterios, metodología y procedimientos para la integración, organización y actualización de la zonificación.",
+        "context": "Artículo 49. La Comisión deberá llevar a cabo la zonificación para efectos de planeación, con base en el Inventario Nacional Forestal y de Suelos y en los programas de ordenamiento ecológico. En el Reglamento se determinarán los criterios, metodología y procedimientos para la integración, organización y actualización de la zonificación."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "¿Qué criterios se deben considerar en la formulación del Inventario Nacional Forestal y de Suelos?",
+        "output": "En la formulación del Inventario Nacional Forestal y de Suelos se deben considerar criterios como la delimitación por cuencas hidrográficas, la naturaleza y diversidad de los ecosistemas forestales, la vocación de los terrenos forestales, los impactos en los ecosistemas por actividades humanas, y la delimitación de las Unidades de Manejo Forestal.",
+        "context": "Artículo 48. En la formulación del Inventario Nacional Forestal y de Suelos, se deberán considerar los siguientes criterios: I. La delimitación por cuencas hidrográficas; II. La naturaleza, características, diversidad de los ecosistemas forestales existentes en el territorio nacional; III. La vocación de los terrenos forestales y preferentemente forestales; IV. Los impactos existentes en los ecosistemas por efecto de las actividades económicas o de otras actividades humanas o fenómenos naturales, y V. La delimitación de las Unidades de Manejo Forestal."
+      },
+      {
+        "instruction": "¿Cuáles son los criterios que se deben considerar en la zonificación forestal?",
+        "output": "En la zonificación forestal se deben considerar criterios como la planeación basada en el Inventario Nacional Forestal y de Suelos, y en los programas de ordenamiento ecológico. El Reglamento determinará los criterios, metodología y procedimientos para la integración, organización y actualización de la zonificación.",
+        "context": "Artículo 49. La Comisión deberá llevar a cabo la zonificación para efectos de planeación, con base en el Inventario Nacional Forestal y de Suelos y en los programas de ordenamiento ecológico. En el Reglamento se determinarán los criterios, metodología y procedimientos para la integración, organización y actualización de la zonificación."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo sobre la importancia de los criterios e indicadores de sustentabilidad en la gestión forestal.",
+        "output": "Los criterios e indicadores de sustentabilidad son fundamentales en la gestión forestal para garantizar la conservación de los ecosistemas forestales. Estos criterios permiten evaluar el impacto de las acciones humanas en el medio ambiente, facilitando la formulación de programas y estrategias para la adaptación y mitigación del cambio climático.",
+        "context": "VI. Los criterios e indicadores de sustentabilidad, deforestación y degradación de los ecosistemas forestales; VII. Los registros de la infraestructura forestal existente; VIII. La información, basada en el Sistema Nacional de Medición, Reporte y Verificación, de la reducción de emisiones derivadas de acciones de prevención y combate de la deforestación y degradación forestal, y IX. Los demás datos que señale el Reglamento."
+      },
+      {
+        "instruction": "Redacta un artículo sobre la importancia de la zonificación forestal en la planificación ambiental.",
+        "output": "La zonificación forestal desempeña un papel crucial en la planificación ambiental al proporcionar información detallada sobre la distribución de los recursos forestales. Esta herramienta permite una gestión sostenible de los ecosistemas, facilitando la toma de decisiones informadas para la conservación y uso adecuado de los bosques.",
+        "context": "Artículo 49. La Comisión deberá llevar a cabo la zonificación para efectos de planeación, con base en el Inventario Nacional Forestal y de Suelos y en los programas de ordenamiento ecológico. En el Reglamento se determinarán los criterios, metodología y procedimientos para la integración, organización y actualización de la zonificación."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identify the date when the 'DECRETO por el que se adiciona un artÃ­culo 115 Bis a la Ley de Desarrollo Rural Sustentable' was published in the Diario Oficial de la FederaciÃ³n.",
+        "output": "28 de enero de 2011",
+        "context": "DECRETO por el que se adiciona un artÃ­culo 115 Bis a la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 28 de enero de 2011"
+      },
+      {
+        "instruction": "What is the title of the article added by the 'DECRETO por el que se reforma el inciso h) del pÃ¡rrafo primero del artÃ­culo 21 y la fracciÃ³n I del artÃ­culo 48 de la Ley de Desarrollo Rural Sustentable'?",
+        "output": "DECRETO por el que se reforma el inciso h) del pÃ¡rrafo primero del artÃ­culo 21 y la fracciÃ³n I del artÃ­culo 48 de la Ley de Desarrollo Rural Sustentable",
+        "context": "DECRETO por el que se reforma el inciso h) del pÃ¡rrafo primero del artÃ­culo 21 y la fracciÃ³n I del artÃ­culo 48 de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 20 de junio de 2018"
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Summarize the 'DECRETO por el que se adiciona el pÃ¡rrafo cuarto al artÃ­culo 25 de la Ley de Desarrollo Rural Sustentable'.",
+        "output": "Se adiciona el pÃ¡rrafo cuarto al artÃ­culo 25 de la Ley de Desarrollo Rural Sustentable y se recorren los subsecuentes. El presente Decreto entrarÃ¡ en vigor el dÃ­a siguiente al de su publicaciÃ³n en el Diario Oficial de la FederaciÃ³n.",
+        "context": "DECRETO por el que se adiciona el pÃ¡rrafo cuarto al artÃ­culo 25 de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 12 de enero de 2012"
+      },
+      {
+        "instruction": "Provide a summary of the 'DECRETO por el que se reforman y adicionan los artÃ­culos 3o., 143, 145 y 191 de la Ley de Desarrollo Rural Sustentable'.",
+        "output": "Se reforman los artÃ­culos 143, primer pÃ¡rrafo y 145; se adiciona una fracciÃ³n XIX Bis al artÃ­culo 3o., y un segundo pÃ¡rrafo a la fracciÃ³n III del artÃculo 191 de la Ley de Desarrollo Rural Sustentable. El presente Decreto entrarÃ¡ en vigor al dÃ­a siguiente de su publicaciÃ³n en el Diario Oficial de la FederaciÃ³n.",
+        "context": "DECRETO por el que se reforman y adicionan los artÃ­culos 3o., 143, 145 y 191 de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 22 de diciembre de 2017"
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Provide legal advice on the effective date of the 'DECRETO por el que se reforma el artÃ­culo 190 de la Ley de Desarrollo Rural Sustentable'.",
+        "output": "El presente Decreto entrarÃ¡ en vigor al dÃ­a siguiente de su publicaciÃ³n en el Diario Oficial de la FederaciÃ³n.",
+        "context": "DECRETO por el que se reforma el artÃ­culo 190 de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 26 de mayo de 2011"
+      },
+      {
+        "instruction": "Offer legal advice regarding the commencement date of the 'DECRETO por el que se adiciona el pÃ¡rrafo cuarto al artÃ­culo 25 de la Ley de Desarrollo Rural Sustentable'.",
+        "output": "El presente Decreto entrarÃ¡ en vigor el dÃ­a siguiente al de su publicaciÃ³n en el Diario Oficial de la FederaciÃ³n.",
+        "context": "DECRETO por el que se adiciona el pÃ¡rrafo cuarto al artÃculo 25 de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 12 de enero de 2012"
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Draft a legal document to add a new article to the 'Ley de Desarrollo Rural Sustentable'.",
+        "output": "DECRETO por el que se adiciona un artÃ­culo [NÃºmero del ArtÃ­culo] a la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el [Fecha de PublicaciÃ³n]",
+        "context": "DECRETO por el que se adiciona un artÃ­culo 115 Bis a la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 28 de enero de 2011"
+      },
+      {
+        "instruction": "Create a legal document to reform and add articles to the 'Ley de Desarrollo Rural Sustentable'.",
+        "output": "DECRETO por el que se reforman y adicionan los artÃ­culos [NÃºmeros de los ArtÃ­culos] de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el [Fecha de PublicaciÃ³n]",
+        "context": "DECRETO por el que se reforman y adicionan los artÃ­culos 3o., 143, 145 y 191 de la Ley de Desarrollo Rural Sustentable. Publicado en el Diario Oficial de la FederaciÃ³n el 22 de diciembre de 2017"
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica las materias en las que se fomentarán acciones según el Programa Especial Concurrente para el Desarrollo Rural Sustentable.",
+        "output": "El Programa Especial Concurrente fomentará acciones en las siguientes materias: Actividades económicas de la sociedad rural, Educación para el desarrollo rural sustentable, La salud y la alimentación para el desarrollo rural sustentable, Planeación familiar, Vivienda para el desarrollo rural sustentable, Infraestructura y el equipamiento comunitario y urbano para el desarrollo rural sustentable, Combate a la pobreza y la marginación en el medio rural, Política de población para el desarrollo rural sustentable, Cuidado al medio ambiente rural, la sustentabilidad de las actividades socioeconómicas en el campo y a la producción de servicios ambientales para la sociedad, Equidad de género, la protección de la familia, el impulso a los programas de la mujer, los jóvenes, la protección de los grupos vulnerables, en especial niños, discapacitados, personas con enfermedades terminales y de la tercera edad en las comunidades rurales, Impulso a la educación cívica, a la cultura de la legalidad y combate efectivo a la ilegalidad en el medio rural, Impulso a la cultura y al desarrollo de las formas específicas de organización social y capacidad productiva de los pueblos indígenas, particularmente para su integración al desarrollo rural sustentable de la Nación, Seguridad en la tenencia y disposición de la tierra, Promoción del empleo productivo, incluyendo el impulso a la seguridad social y a la capacitación para el trabajo en las áreas agropecuaria, comercial, industrial y de servicios, Protección a los trabajadores rurales en general y a los jornaleros agrícolas y migratorios en particular, Impulso a los programas de protección civil para la prevención, auxilio, recuperación y apoyo a la población rural en situaciones de desastre, Impulso a los programas orientados a la paz social.",
+        "context": "Artículo 15.- El Programa Especial Concurrente al que se refiere el artículo anterior, fomentará acciones en las siguientes materias: I. Actividades económicas de la sociedad rural; II. Educación para el desarrollo rural sustentable; III. La salud y la alimentación para el desarrollo rural sustentable; IV. Planeación familiar; V. Vivienda para el desarrollo rural sustentable; VI. Infraestructura y el equipamiento comunitario y urbano para el desarrollo rural sustentable; VII. Combate a la pobreza y la marginación en el medio rural; VIII. Política de población para el desarrollo rural sustentable; IX. Cuidado al medio ambiente rural, la sustentabilidad de las actividades socioeconómicas en el campo y a la producción de servicios ambientales para la sociedad; X. Equidad de género, la protección de la familia, el impulso a los programas de la mujer, los jóvenes, la protección de los grupos vulnerables, en especial niños, discapacitados, personas con enfermedades terminales y de la tercera edad en las comunidades rurales; XI. Impulso a la educación cívica, a la cultura de la legalidad y combate efectivo a la ilegalidad en el medio rural; XII. Impulso a la cultura y al desarrollo de las formas específicas de organización social y capacidad productiva de los pueblos indígenas, particularmente para su integración al desarrollo rural sustentable de la Nación; XIII. Seguridad en la tenencia y disposición de la tierra; XIV. Promoción del empleo productivo, incluyendo el impulso a la seguridad social y a la capacitación para el trabajo en las áreas agropecuaria, comercial, industrial y de servicios; XV. Protección a los trabajadores rurales en general y a los jornaleros agrícolas y migratorios en particular; XVI. Impulso a los programas de protección civil para la prevención, auxilio, recuperación y apoyo a la población rural en situaciones de desastre; XVII. Impulso a los programas orientados a la paz social."
+      },
+      {
+        "instruction": "¿Cuál es el plazo para la aprobación del Programa Especial Concurrente para el Desarrollo Rural Sustentable?",
+        "output": "El Programa Especial Concurrente para el Desarrollo Rural Sustentable será aprobado por el Presidente de la República dentro de los seis meses posteriores a la expedición del Plan Nacional de Desarrollo.",
+        "context": "Artículo 16.- El Programa Especial Concurrente para el Desarrollo Rural Sustentable será aprobado por el Presidente de la República dentro de los seis meses posteriores a la expedición del Plan Nacional de Desarrollo, se publicará en el Diario Oficial de la Federación y se difundirá ampliamente entre la población rural del país."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume los objetivos y funciones de la Comisión Intersecretarial para el Desarrollo Rural Sustentable.",
+        "output": "La Comisión Intersecretarial para el Desarrollo Rural Sustentable tiene como función proponer al Ejecutivo Federal el Programa Especial Concurrente para el Desarrollo Rural Sustentable, considerar propuestas de organizaciones y gobiernos locales, establecer normas de evaluación y seguimiento, atender las disposiciones legales pertinentes, y ejecutar acciones para el desarrollo rural sustentable.",
+        "context": "Artículo 14.- En el marco del Plan Nacional de Desarrollo y de los programas sectoriales de las dependencias y entidades que la integren, la Comisión Intersecretarial para el Desarrollo Rural Sustentable propondrá al Ejecutivo Federal, con fundamento en lo dispuesto por los artículos 7, 9 y 22 de la Ley Orgánica de la Administración Pública Federal y 19 y 26 de la Ley de Planeación, el Programa Especial Concurrente para el Desarrollo Rural Sustentable que comprenderá las políticas públicas orientadas a la generación y diversificación de empleo y a garantizar a la población campesina el bienestar y su participación e incorporación al desarrollo nacional, dando prioridad a las zonas de alta y muy alta marginación y a las poblaciones económicamente y socialmente débiles. La Comisión Intersecretarial, en los términos del artículo 13 de este ordenamiento, considerará las propuestas de las organizaciones que concurren a las actividades del sector y del Consejo Mexicano, a fin de incorporarlas en el Programa Especial Concurrente. Igualmente, incorporará los compromisos que conforme a los convenios respectivos asuman los gobiernos de las entidades federativas y de los municipios, así como establecerá las normas y mecanismos de evaluación y seguimiento a su aplicación. La Comisión Intersecretarial, a petición del Ejecutivo Federal, hará las consideraciones necesarias para atender lo que dispone la fracción II del artículo 13 de esta Ley."
+      },
+      {
+        "instruction": "Resumen las responsabilidades de los Consejos Mexicano, Estatales, Distritales y Municipales para el Desarrollo Rural Sustentable.",
+        "output": "Los Consejos Mexicano, Estatales, Distritales y Municipales para el Desarrollo Rural Sustentable tienen la responsabilidad de promover la participación de organizaciones y agentes del sector rural en la planeación, seguimiento, actualización y evaluación de los programas de fomento agropecuario y de desarrollo rural sustentable, así como de opinar en la definición de prioridades regionales y la distribución de recursos.",
+        "context": "Artículo 18.- El Consejo Mexicano y los demás organismos e instancias de representación de los diversos agentes y actores de la sociedad rural, serán los encargados de promover que en el ámbito de las entidades federativas, los municipios y regiones, se tenga la más amplia participación de las organizaciones y demás agentes y sujetos del sector, como bases de una acción descentralizada en la planeación, seguimiento, actualización y evaluación de los programas de fomento agropecuario y de desarrollo rural sustentable a cargo del Gobierno Federal. Para cumplir con sus funciones el Consejo Mexicano formará comisiones de trabajo en los temas sustantivos materia de la presente Ley."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Proporciona asesoramiento legal sobre la aprobación y publicación del Programa Especial Concurrente para el Desarrollo Rural Sustentable.",
+        "output": "Es necesario que el Programa Especial Concurrente para el Desarrollo Rural Sustentable sea aprobado por el Presidente de la República dentro de los seis meses posteriores a la expedición del Plan Nacional de Desarrollo. Una vez aprobado, debe ser publicado en el Diario Oficial de la Federación y difundido ampliamente entre la población rural del país.",
+        "context": "Artículo 16.- El Programa Especial Concurrente para el Desarrollo Rural Sustentable será aprobado por el Presidente de la República dentro de los seis meses posteriores a la expedición del Plan Nacional de Desarrollo, se publicará en el Diario Oficial de la Federación y se difundirá ampliamente entre la población rural del país."
+      },
+      {
+        "instruction": "Ofrece asesoramiento legal sobre la integración y funciones de los Consejos Estatales, Distritales y Municipales para el Desarrollo Rural Sustentable.",
+        "output": "Los Consejos Estatales, Distritales y Municipales para el Desarrollo Rural Sustentable deben promover la participación de organizaciones y agentes del sector rural en la definición de prioridades regionales, la planeación y distribución de recursos, así como en la aplicación de programas concurrentes municipales del Desarrollo Rural Sustentable.",
+        "context": "Artículo 24.- Con apego a los principios de federalización, se integrarán Consejos para el Desarrollo Rural Sustentable, homologados al Consejo Mexicano, en los municipios, en los Distritos de Desarrollo Rural y en las entidades federativas. Los convenios que celebre la Secretaría con los gobiernos de las entidades federativas preverán la creación de estos Consejos, los cuales serán además, instancias para la participación de los productores y demás agentes de la sociedad rural en la definición de prioridades regionales, la planeación y distribución de los recursos que la Federación, las entidades federativas y los municipios destinen al apoyo de las inversiones productivas, y para el desarrollo rural sustentable conforme al presente ordenamiento."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo que establezca las responsabilidades de la Comisión Intersecretarial para el Desarrollo Rural Sustentable.",
+        "output": "Artículo 20.- La Comisión Intersecretarial para el Desarrollo Rural Sustentable será responsable de atender, difundir, coordinar y dar seguimiento a los programas sectoriales y especiales que tengan como propósito impulsar el desarrollo rural sustentable. Asimismo, será la responsable de promover y coordinar las acciones y la concertación de la asignación de responsabilidades a las dependencias y entidades federales competentes en las materias de la presente Ley.",
+        "context": "Artículo 20.- La Comisión Intersecretarial será responsable de atender, difundir, coordinar y dar el seguimiento correspondiente a los programas sectoriales y especiales que tengan como propósito impulsar el desarrollo rural sustentable. Asimismo, será la responsable de promover y coordinar las acciones y la concertación de la asignación de responsabilidades a las dependencias y entidades federales competentes en las materias de la presente Ley."
+      },
+      {
+        "instruction": "Redacta un artículo que establezca las funciones de los Distritos de Desarrollo Rural en el marco del desarrollo rural sustentable.",
+        "output": "Artículo 29.- Los Distritos de Desarrollo Rural serán la base de la organización territorial y administrativa de las dependencias de la Administración Pública Federal y Descentralizada, para la realización de los programas operativos de la Administración Pública Federal que participan en el Programa Especial Concurrente y los Programas Sectoriales que de él derivan, así como con los gobiernos de las entidades federativas y municipales y para la concertación con las organizaciones de productores y los sectores social y privado.",
+        "context": "Artículo 29.- Los Distritos de Desarrollo Rural serán la base de la organización territorial y administrativa de las dependencias de la Administración Pública Federal y Descentralizada, para la realización de los programas operativos de la Administración Pública Federal que participan en el Programa Especial Concurrente y los Programas Sectoriales que de él derivan, así como con los gobiernos de las entidades federativas y municipales y para la concertación con las organizaciones de productores y los sectores social y privado."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "¿Qué facultades tiene la autoridad encargada de resolver el recurso según el artículo 122?",
+        "output": "La autoridad encargada de resolver el recurso podrá desecharlo por improcedente o sobreseerlo, confirmar el acto impugnado, declarar la inexistencia, nulidad o anulabilidad del acto impugnado o revocarlo total o parcialmente, y modificar u ordenar la modificación del acto impugnado o dictar u ordenar expedir uno nuevo que lo sustituya, cuando el recurso interpuesto sea total o parcialmente a favor del recurrente.",
+        "context": "Artículo 122.- La autoridad encargada de resolver el recurso podrá: I. Desecharlo por improcedente o sobreseerlo; II. Confirmar el acto impugnado; III. Declarar la inexistencia, nulidad o anulabilidad del acto impugnado o revocarlo total o parcialmente, y IV. Modificar u ordenar la modificación del acto impugnado o dictar u ordenar expedir uno nuevo que lo sustituya, cuando el recurso interpuesto sea total o parcialmente a favor del recurrente."
+      },
+      {
+        "instruction": "¿En qué plazo debe cumplirse la resolución si ordena realizar un determinado acto o iniciar la reposición del procedimiento según el artículo 123?",
+        "output": "Si la resolución ordena realizar un determinado acto o iniciar la reposición del procedimiento, deberá cumplirse en un plazo de cuatro meses.",
+        "context": "Si la resolución ordena realizar un determinado acto o iniciar la reposición del procedimiento, deberá cumplirse en un plazo de cuatro meses."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resumir el contenido del artículo 125 en relación con la denuncia de hechos ante la Secretaría.",
+        "output": "El artículo 125 establece que toda persona, grupo social, organización no gubernamental, asociación y sociedad podrá denunciar ante la Secretaría todo hecho, acto u omisión que produzca o pueda producir desequilibrio ecológico, daños al ambiente, a los recursos naturales o a la salud en relación con las materias de esta Ley y demás ordenamientos que de ella emanen.",
+        "context": "Artículo 125.- Toda persona, grupo social, organización no gubernamental, asociación y sociedad podrá denunciar ante la Secretaría, todo hecho, acto u omisión que produzca o pueda producir desequilibrio ecológico, daños al ambiente, a los recursos naturales o a la salud en relación con las materias de esta Ley y demás ordenamientos que de ella emanen."
+      },
+      {
+        "instruction": "Resumir el contenido del artículo 124 en relación con la substanciación del recurso de revisión.",
+        "output": "El artículo 124 establece que la substanciación del recurso de revisión se sujetará a lo dispuesto en la Ley Federal de Procedimiento Administrativo, en sus preceptos aplicables.",
+        "context": "Artículo 124.- La substanciación del recurso de revisión a que se refiere el artículo anterior de esta Ley, se sujetará a lo dispuesto en la Ley Federal de Procedimiento Administrativo, en sus preceptos aplicables."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Generar un consejo legal basado en el artículo 123 en relación con la resolución del recurso.",
+        "output": "Es importante que al presentar un recurso se funden en derecho y se examinen todos los agravios hechos valer, ya que la autoridad puede invocar hechos notorios. Además, si uno de los agravios es suficiente para desvirtuar la validez del acto impugnado, bastará con el examen de dicho punto.",
+        "context": "Artículo 123.- La resolución del recurso se fundará en derecho y examinará todos y cada uno de los agravios hechos valer por el recurrente teniendo la autoridad la facultad de invocar hechos notorios; pero cuando uno de los agravios sea suficiente para desvirtuar la validez del acto impugnado bastará con el examen de dicho punto."
+      },
+      {
+        "instruction": "Ofrecer asesoramiento legal basado en el artículo 122 sobre las facultades de la autoridad para resolver el recurso.",
+        "output": "Es recomendable considerar que la autoridad encargada de resolver el recurso tiene diversas facultades, como desecharlo por improcedente o sobreseerlo, confirmar el acto impugnado, declarar la inexistencia, nulidad o anulabilidad del acto impugnado o revocarlo total o parcialmente, y modificar u ordenar la modificación del acto impugnado o dictar u ordenar expedir uno nuevo que lo sustituya, dependiendo de la situación del recurso.",
+        "context": "Artículo 122.- La autoridad encargada de resolver el recurso podrá: I. Desecharlo por improcedente o sobreseerlo; II. Confirmar el acto impugnado; III. Declarar la inexistencia, nulidad o anulabilidad del acto impugnado o revocarlo total o parcialmente, y IV. Modificar u ordenar la modificación del acto impugnado o dictar u ordenar expedir uno nuevo que lo sustituya, cuando el recurso interpuesto sea total o parcialmente a favor del recurrente."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redactar un documento legal que establezca las disposiciones transitorias de un decreto de reforma según el artículo 125.",
+        "output": "DISPOSICIONES TRANSITORIAS: PRIMERO.- El presente decreto entrará en vigor a los noventa días naturales siguientes a su publicación en el Diario Oficial de la Federación. SEGUNDO.- Se derogan todas las disposiciones jurídicas que se opongan al contenido de esta Ley.",
+        "context": "TRANSITORIOS: PRIMERO.- El presente ordenamiento entrará en vigor a los noventa días naturales siguientes a su publicación en el Diario Oficial de la Federación. SEGUNDO.- Se derogan todas las disposiciones jurídicas que se opongan al contenido de esta Ley."
+      },
+      {
+        "instruction": "Redactar un documento legal que contenga las disposiciones transitorias de un decreto de reforma según el artículo 124.",
+        "output": "DISPOSICIONES TRANSITORIAS: PRIMERO.- El presente decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la Federación. SEGUNDO.- Se derogan todas las disposiciones que se opongan al presente Decreto.",
+        "context": "TRANSITORIOS: PRIMERO.- El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la Federación. SEGUNDO.- Se derogan todas las disposiciones que se opongan al presente Decreto."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica cuál es el límite exterior de la Zona Económica Exclusiva mexicana según la Ley Federal del Mar.",
+        "output": "El límite exterior de la Zona Económica Exclusiva mexicana es la línea cada uno de cuyos puntos está, del punto más próximo de las líneas de base del Mar Territorial determinadas en el Artículo 26 de esta Ley, a una distancia de 200 millas marinas (370,400 metros).",
+        "context": "ARTICULO 53.- El límite exterior de la Zona Económica Exclusiva mexicana es la línea cada uno de cuyos puntos está del punto más próximo de las líneas de base del Mar Territorial determinadas en el Artículo 26 de esta Ley, a una distancia de 200 millas marinas (370,400 metros)."
+      },
+      {
+        "instruction": "¿Qué principios se deben seguir al realizar actividades de investigación científica en las zonas marinas mexicanas según la Ley Federal del Mar?",
+        "output": "Los principios que se deben seguir al realizar actividades de investigación científica en las zonas marinas mexicanas son: 1. Se realizarán exclusivamente con fines pacíficos. 2. Se realizarán con métodos y medios científicos adecuados, compatibles con la presente Ley y demás leyes aplicables y con el derecho internacional. 3. No interferirán injustificadamente con otros usos legítimos del mar compatibles con esta Ley y con el derecho internacional. 4. Se respetarán todas las leyes y reglamentos pertinentes a la protección y preservación del medio marino. 5. No constituirán fundamento jurídico para ninguna reivindicación sobre parte alguna del medio marino o sus recursos. 6. Cuando conforme a la presente Ley sean permitidos para su realización por extranjeros se asegurará el mayor grado posible de participación nacional, y 7. En el caso de la fracción anterior, la nación se asegurará que se le proporcionen los resultados de la investigación y, si así lo solicita, la asistencia necesaria para su interpretación y evaluación.",
+        "context": "ARTICULO 22.- En la realización de actividades de investigación científica en las zonas marinas mexicanas, se aplicarán los siguientes principios: I.- Se realizarán exclusivamente con fines pacíficos. II.- Se realizarán con métodos y medios científicos adecuados, compatibles con la presente Ley y demás leyes aplicables y con el derecho internacional. III.- No interferirán injustificadamente con otros usos legítimos del mar compatibles con esta Ley y con el derecho internacional. IV.- Se respetarán todas las leyes y reglamentos pertinentes a la protección y preservación del medio marino. V.- No constituirán fundamento jurídico para ninguna reivindicación sobre parte alguna del medio marino o sus recursos. VI.- Cuando conforme a la presente Ley sean permitidos para su realización por extranjeros se asegurará el mayor grado posible de participación nacional, y VII.- En el caso de la fracción anterior, la nación se asegurará que se le proporcionen los resultados de la investigación y, si así lo solicita, la asistencia necesaria para su interpretación y evaluación."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume el contenido del Capítulo I del Título Primero de la Ley Federal del Mar.",
+        "output": "El Capítulo I del Título Primero de la Ley Federal del Mar establece las disposiciones generales sobre los ámbitos de aplicación de la Ley, definiendo las zonas marinas mexicanas, la jurisdicción federal, los poderes y competencias de la Nación en dichas zonas, así como los derechos y obligaciones de los Estados extranjeros y sus nacionales al realizar actividades en estas zonas.",
+        "context": "CAPITULO I De los Ámbitos de Aplicación de la Ley ARTICULO 1o.- La presente Ley es reglamentaria de los párrafos Cuarto, Quinto, Sexto y Octavo del Artículo 27 de la Constitución Política de los Estados Unidos Mexicanos, en lo relativo a las zonas marinas mexicanas. ARTICULO 2o.- La presente Ley es de jurisdicción federal, rige en las zonas marinas que forman parte del territorio nacional y, en lo aplicable, más allá de éste en las zonas marinas donde la Nación ejerce derechos de soberanía, jurisdicciones y otros derechos. Sus disposiciones son de orden público, en el marco del sistema nacional de planeación democrática. ARTICULO 3o.- Las zonas marinas mexicanas son: a) El Mar Territorial b) Las Aguas Marinas Interiores c) La Zona Contigua d) La Zona Económica Exclusiva e) La Plataforma Continental y las Plataformas Insulares y f) Cualquier otra permitida por el derecho internacional. ARTICULO 4o.- En las zonas enumeradas en el Artículo anterior, la Nación ejercerá los poderes, derechos, jurisdicciones y competencias que esta misma Ley establece, de conformidad con la Constitución Política de los Estados Unidos Mexicanos y con el derecho internacional. ARTICULO 5o.- Los Estados extranjeros y sus nacionales, al realizar actividades en las zonas marinas enumeradas en el Artículo 3o., observarán las disposiciones que para cada una de ellas establece la presente Ley, con los derechos y obligaciones consecuentes."
+      },
+      {
+        "instruction": "Haz un resumen del Capítulo II del Título Primero de la Ley Federal del Mar.",
+        "output": "El Capítulo II del Título Primero de la Ley Federal del Mar aborda el tema de las Instalaciones Marítimas, estableciendo que las islas artificiales, instalaciones y estructuras no tienen Mar Territorial propio y su presencia no afecta la delimitación del Mar Territorial, de la Zona Económica Exclusiva o de la Plataforma Continental. Además, se señala que la Nación tiene jurisdicción exclusiva sobre estas instalaciones en ciertas zonas marinas, incluyendo la jurisdicción en materia de reglamentos aduaneros, fiscales, sanitarios, de seguridad y de inmigración.",
+        "context": "CAPITULO II De las Instalaciones Marítimas ARTICULO 14.- Las islas artificiales, instalaciones y estructuras no tienen Mar Territorial propio y su presencia no afecta la delimitación del Mar Territorial, de la Zona Económica Exclusiva o de la Plataforma Continental. ARTICULO 15.- La Nación tiene jurisdicción exclusiva sobre las islas artificiales, instalaciones y estructuras en la Zona Económica Exclusiva y en la Plataforma Continental y en las Plataformas Insulares, incluida la jurisdicción en materia de reglamentos aduaneros, fiscales, sanitarios, de seguridad y de inmigración. ARTICULO 16.- La Nación tiene derecho exclusivo en las zonas marinas mexicanas, de construir, así como el de autorizar y reglamentar la construcción, operación y utilización de islas artificiales, de instalaciones y estructuras, de conformidad con la presente Ley, la Ley General de Bienes Nacionales, la Ley de Obras Públicas y demás disposiciones aplicables en vigor."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Genera un consejo legal basado en la Ley Federal del Mar para un Estado extranjero que desea realizar actividades en las Aguas Marinas Interiores mexicanas.",
+        "output": "Se aconseja al Estado extranjero que al realizar actividades en las Aguas Marinas Interiores mexicanas, observe las disposiciones establecidas en la Ley Federal del Mar para cada una de ellas, respetando los derechos y obligaciones consecuentes. Debe cumplir con los reglamentos aduaneros, fiscales, sanitarios, de seguridad y de inmigración, y estar consciente de los derechos y deberes que implica operar en estas zonas marinas de jurisdicción nacional.",
+        "context": "ARTICULO 5o.- Los Estados extranjeros y sus nacionales, al realizar actividades en las zonas marinas enumeradas en el Artículo 3o., observarán las disposiciones que para cada una de ellas establece la presente Ley, con los derechos y obligaciones consecuentes."
+      },
+      {
+        "instruction": "Brinda asesoramiento legal a un Estado vecino sobre la delimitación de las líneas divisorias entre las zonas marinas mexicanas y las zonas colindantes de jurisdicción nacional marina de cada uno de ellos según la Ley Federal del Mar.",
+        "output": "Se aconseja al Estado vecino que negocie acuerdos con México para la delimitación de las líneas divisorias entre las zonas marinas mexicanas y las correspondientes zonas colindantes de jurisdicción nacional marina de cada uno de ellos en caso de superposición. Deben actuar de acuerdo con el derecho internacional y buscar soluciones recíprocamente aceptables en caso de disputas sobre la extensión de las zonas marinas.",
+        "context": "ARTICULO 8o.- El Poder Ejecutivo Federal podrá negociar acuerdos con Estados vecinos, para la delimitación de las líneas divisorias entre las zonas marinas mexicanas y las correspondientes zonas colindantes de jurisdicción nacional marina de cada uno de ellos, en aquellos casos en que se produzca una superposición entre las mismas, de conformidad con el derecho internacional."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo para una nueva ley que regule la protección y preservación del medio marino en las zonas marinas mexicanas.",
+        "output": "Artículo 1: La presente ley tiene por objeto regular la protección y preservación del medio marino en las zonas marinas mexicanas. Artículo 2: Se establecen medidas para prevenir, reducir y controlar la contaminación del medio marino. Artículo 3: Se promoverá la conservación de los recursos marinos vivos y no vivos, así como la utilización sostenible de los mismos. Artículo 4: Se fomentará la investigación científica marina para el conocimiento y la protección de los ecosistemas marinos. Artículo 5: Se establecerán sanciones para aquellos que incumplan las disposiciones de esta ley.",
+        "context": "ARTICULO 21.- En el ejercicio de los poderes, derechos, jurisdicciones y competencias de la Nación dentro de las zonas marinas mexicanas, se aplicarán la Ley Federal de Protección al Ambiente, la Ley General de Salud, y sus respectivos Reglamentos, la Ley Federal de Aguas y demás leyes y reglamentos aplicables vigentes o que se adopten, incluidos la presente Ley, su reglamento y las normas pertinentes del derecho internacional para prevenir, reducir y controlar la contaminación del medio marino."
+      },
+      {
+        "instruction": "Escribe un artículo para una nueva legislación que regule la construcción y operación de islas artificiales en las zonas marinas mexicanas.",
+        "output": "Artículo 1: La presente ley regula la construcción y operación de islas artificiales en las zonas marinas mexicanas. Artículo 2: Se establecen los requisitos y procedimientos para autorizar y reglamentar la construcción, operación y utilización de islas artificiales. Artículo 3: Se otorga jurisdicción exclusiva a la Nación sobre las islas artificiales en ciertas zonas marinas, incluyendo la jurisdicción en materia de reglamentos aduaneros, fiscales, sanitarios, de seguridad y de inmigración. Artículo 4: Se establecen sanciones para aquellos que incumplan las disposiciones de esta ley. Artículo 5: Se promoverá el desarrollo sostenible de las islas artificiales y su integración en el entorno marino.",
+        "context": "ARTICULO 16.- La Nación tiene derecho exclusivo en las zonas marinas mexicanas, de construir, así como el de autorizar y reglamentar la construcción, operación y utilización de islas artificiales, de instalaciones y estructuras, de conformidad con la presente Ley, la Ley General de Bienes Nacionales, la Ley de Obras Públicas y demás disposiciones aplicables en vigor."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identify the entity responsible for ensuring respect for navigation and overflight freedoms in the Mexican Exclusive Economic Zone for vessels and aircraft of all States.",
+        "output": "The Federal Executive Power will ensure respect for navigation and overflight freedoms in the Mexican Exclusive Economic Zone for vessels and aircraft of all States.",
+        "context": "El Poder Ejecutivo Federal velarÃ¡ porque se respete, con sujeciÃ³n a las disposiciones pertinentes de esta Ley, de su Reglamento y del derecho internacional, las libertades de navegaciÃ³n y sobrevuelo, en la Zona EconÃ³mica Exclusiva mexicana por las embarcaciones y aeronaves de todos los Estados, sean ribereÃ±os o sin litoral."
+      },
+      {
+        "instruction": "What actions will the Federal Executive Power take regarding the permissible capture of living resources in the Mexican Exclusive Economic Zone?",
+        "output": "The Federal Executive Power will dictate appropriate management and conservation measures to prevent living resources from being threatened by excessive exploitation, determine the permissible capture of living resources in the Exclusive Economic Zone, and promote the optimal use of these resources.",
+        "context": "ARTICULO 56.- El Poder Ejecutivo Federal dictarÃ¡ medidas adecuadas de administraciÃ³n y conservaciÃ³n para que los recursos vivos no se vean amenazados por una explotaciÃ³n excesiva, determinarÃ¡ la captura permisible de recursos vivos en la Zona EconÃ³mica Exclusiva y, sin perjuicio de lo anterior, promoverÃ¡ la utilizaciÃ³n Ã³ptima de dichos recursos. Cuando el total de la captura permisible de una especie sea mayor que la capacidad para pescar y cazar de las embarcaciones nacionales, el Poder Ejecutivo Federal darÃ¡ acceso a embarcaciones extranjeras al excedente de la captura permisible de acuerdo con el interÃ©s nacional y bajo las condiciones que seÃ±ale la legislaciÃ³n mexicana de pesca."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Summarize the rights of sovereignty that Mexico exercises over the Continental Shelf and Insular Platforms.",
+        "output": "Mexico exercises exclusive sovereignty rights over the Continental Shelf and Insular Platforms for exploration and exploitation of natural resources. These rights are independent of actual or fictitious occupation and do not affect the legal status of the overlying waters or airspace.",
+        "context": "ARTICULO 57.- La NaciÃ³n ejerce derechos de soberanÃ­a sobre la Plataforma Continental y las Plataformas Insulares a los efectos de su exploraciÃ³n y de la explotaciÃ³n de sus recursos naturales. ARTICULO 58.- Los derechos de soberanÃ­a de la NaciÃ³n a que se refiere el ArtÃ­culo anterior son exclusivos, en el sentido de que si MÃ©xico no explora la Plataforma Continental y las Plataformas Insulares o no explota sus recursos naturales, nadie puede emprender estas actividades sin expreso consentimiento de las autoridades nacionales competentes. ARTICULO 59.- Los derechos de soberanÃ­a de la NaciÃ³n a que se refiere el ArtÃ­culo 57 son independientes de la ocupaciÃ³n real o ficticia de la Plataforma Continental y de las Plataformas Insulares. ARTICULO 60.- Los derechos de la NaciÃ³n sobre la Plataforma Continental y las Plataformas Insulares no afectan la condiciÃ³n jurÃ­dica de las aguas suprayacentes, ni la del espacio aÃ©reo situado sobre tales aguas."
+      },
+      {
+        "instruction": "Provide a summary of the regulations regarding the Mexican Continental Shelf and Insular Platforms.",
+        "output": "The Mexican Continental Shelf and Insular Platforms encompass the seabed and subsoil of submarine areas beyond the territorial sea, extending along the natural prolongation of the national territory to the outer edge of the continental margin or up to a distance of 200 nautical miles from the baselines from which the width of the territorial sea is measured. The definition includes islands, keys, and reefs that are part of the national territory.",
+        "context": "ARTICULO 62.- La Plataforma Continental y las Plataformas Insulares mexicanas, comprenden el lecho y el subsuelo de las Ã¡reas submarinas que se extienden mÃ¡s allÃ¡ del mar territorial, y a todo lo largo de la prolongaciÃ³n natural del territorio nacional hasta el borde exterior del margen continental, o bien hasta una distancia de 200 millas marinas contadas desde las lÃ­neas de base a partir de las cuales se mide la anchura del mar territorial, en los casos de que el borde exterior del margen continental no llegue a esa distancia, de acuerdo con lo dispuesto por el derecho internacional. La definiciÃ³n anterior comprende la plataforma de islas, cayos y arrecifes que forman parte del territorio nacional."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Based on the regulations, provide legal advice on the exploitation of natural resources in the Mexican Exclusive Economic Zone.",
+        "output": "It is advisable to comply with the measures established by the Federal Executive Power to prevent excessive exploitation of living resources in the Mexican Exclusive Economic Zone. Additionally, it is recommended to promote the optimal utilization of these resources while ensuring access to foreign vessels for surplus capture under national fishing legislation.",
+        "context": "ARTICULO 56.- El Poder Ejecutivo Federal dictarÃ¡ medidas adecuadas de administraciÃ³n y conservaciÃ³n para que los recursos vivos no se vean amenazados por una explotaciÃ³n excesiva, determinarÃ¡ la captura permisible de recursos vivos en la Zona EconÃ³mica Exclusiva y, sin perjuicio de lo anterior, promoverÃ¡ la utilizaciÃ³n Ã³ptima de dichos recursos. Cuando el total de la captura permisible de una especie sea mayor que la capacidad para pescar y cazar de las embarcaciones nacionales, el Poder Ejecutivo Federal darÃ¡ acceso a embarcaciones extranjeras al excedente de la captura permisible de acuerdo con el interÃ©s nacional y bajo las condiciones que seÃ±ale la legislaciÃ³n mexicana de pesca."
+      },
+      {
+        "instruction": "Offer legal advice on the rights of sovereignty over the Mexican Continental Shelf and Insular Platforms.",
+        "output": "It is recommended to acknowledge Mexico's exclusive sovereignty rights over the Continental Shelf and Insular Platforms for exploration and exploitation of natural resources. These rights are independent of occupation and do not interfere with the navigation and other rights of other States as established by national legislation and international law.",
+        "context": "ARTICULO 57.- La NaciÃ³n ejerce derechos de soberanÃ­a sobre la Plataforma Continental y las Plataformas Insulares a los efectos de su exploraciÃ³n y de la explotaciÃ³n de sus recursos naturales. ARTICULO 58.- Los derechos de soberanÃ­a de la NaciÃ³n a que se refiere el ArtÃ­culo anterior son exclusivos, en el sentido de que si MÃ©xico no explora la Plataforma Continental y las Plataformas Insulares o no explota sus recursos naturales, nadie puede emprender estas actividades sin expreso consentimiento de las autoridades nacionales competentes. ARTICULO 61.- El ejercicio de los derechos de la NaciÃ³n sobre la Plataforma Continental y las Plataformas Insulares no deberÃ¡ afectar la navegaciÃ³n y otros derechos y libertades de los demÃ¡s Estados, previstos en esta Ley, en su Reglamento y segÃºn el derecho internacional ni tener como resultado una injerencia injustificada en ellos."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Draft a legal document outlining the rights and responsibilities regarding the Mexican Continental Shelf and Insular Platforms.",
+        "output": "In accordance with the regulations, this legal document establishes Mexico's exclusive sovereignty rights over the Continental Shelf and Insular Platforms for the exploration and exploitation of natural resources. It emphasizes that these rights are independent of occupation and do not impede the navigation and other rights of other States as outlined in national legislation and international law.",
+        "context": "ARTICULO 57.- La NaciÃ³n ejerce derechos de soberanÃ­a sobre la Plataforma Continental y las Plataformas Insulares a los efectos de su exploraciÃ³n y de la explotaciÃ³n de sus recursos naturales. ARTICULO 58.- Los derechos de soberanÃ­a de la NaciÃ³n a que se refiere el ArtÃ­culo anterior son exclusivos, en el sentido de que si MÃ©xico no explora la Plataforma Continental y las Plataformas Insulares o no explota sus recursos naturales, nadie puede emprender estas actividades sin expreso consentimiento de las autoridades nacionales competentes. ARTICULO 61.- El ejercicio de los derechos de la NaciÃ³n sobre la Plataforma Continental y las Plataformas Insulares no deberÃ¡ afectar la navegaciÃ³n y otros derechos y libertades de los demÃ¡s Estados, previstos en esta Ley, en su Reglamento y segÃºn el derecho internacional ni tener como resultado una injerencia injustificada en ellos."
+      },
+      {
+        "instruction": "Create a legal document detailing the regulations for the Mexican Exclusive Economic Zone.",
+        "output": "This legal document outlines the measures to be taken by the Federal Executive Power to ensure respect for navigation and overflight freedoms in the Mexican Exclusive Economic Zone for vessels and aircraft of all States. It also specifies the permissible capture of living resources, access to surplus capture for foreign vessels, and the promotion of optimal resource utilization.",
+        "context": "El Poder Ejecutivo Federal velarÃ¡ porque se respete, con sujeciÃ³n a las disposiciones pertinentes de esta Ley, de su Reglamento y del derecho internacional, las libertades de navegaciÃ³n y sobrevuelo, en la Zona EconÃ³mica Exclusiva mexicana por las embarcaciones y aeronaves de todos los Estados, sean ribereÃ±os o sin litoral. ARTICULO 56.- El Poder Ejecutivo Federal dictarÃ¡ medidas adecuadas de administraciÃ³n y conservaciÃ³n para que los recursos vivos no se vean amenazados por una explotaciÃ³n excesiva, determinarÃ¡ la captura permisible de recursos vivos en la Zona EconÃ³mica Exclusiva y, sin perjuicio de lo anterior, promoverÃ¡ la utilizaciÃ³n Ã³ptima de dichos recursos. Cuando el total de la captura permisible de una especie sea mayor que la capacidad para pescar y cazar de las embarcaciones nacionales, el Poder Ejecutivo Federal darÃ¡ acceso a embarcaciones extranjeras al excedente de la captura permisible de acuerdo con el interÃ©s nacional y bajo las condiciones que seÃ±ale la legislaciÃ³n mexicana de pesca."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica cuáles son los supuestos para realizar el decomiso de artes de pesca y productos obtenidos de la pesca, según el artículo 142 de la Ley General de Pesca y Acuacultura Sustentables.",
+        "output": "Los supuestos para realizar el decomiso de artes de pesca y productos obtenidos de la pesca son cuando se actualice el supuesto de las fracciones I, V, VII, X, XIII, XVII, XIX, XX, XXI, XXIII, XXVII y XXX del artículo 132, independientemente de la multa correspondiente.",
+        "context": "ARTÍCULO 142.- El decomiso de artes de pesca y productos obtenidos de la pesca, se realizará cuando se actualice el supuesto de las fracciones I, V, VII, X, XIII, XVII, XIX, XX, XXI, XXIII, XXVII y XXX del artículo 132, independientemente de la multa correspondiente."
+      },
+      {
+        "instruction": "¿Qué destino se le dará a los productos o bienes decomisados según el artículo 143 de la Ley General de Pesca y Acuacultura Sustentables?",
+        "output": "A los productos o bienes decomisados se les dará el destino que disponga la Secretaría, conforme a las siguientes alternativas: I. Remate en subasta pública; II. Venta directa de productos pesqueros; III. Donación a establecimientos de asistencia social o de rehabilitación; IV. Destrucción de productos contaminados o en estado de descomposición y en el caso de artes de pesca prohibidas.",
+        "context": "ARTÍCULO 143.- A los productos o bienes decomisados, se les dará el destino que disponga la Secretaría, conforme a las siguientes alternativas: I. Remate en subasta pública; II. Venta directa de productos pesqueros; III. Donación a establecimientos de asistencia social o de rehabilitación, tratándose de productos de la pesca deportivo-recreativa o productos capturados en época de veda o en tallas menores a las autorizadas; y IV. Destrucción de productos contaminados o en estado de descomposición y en el caso de artes de pesca prohibidas, cuando sea procedente."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume los artículos 142 y 143 de la Ley General de Pesca y Acuacultura Sustentables.",
+        "output": "El artículo 142 establece los supuestos para realizar el decomiso de artes de pesca y productos obtenidos de la pesca. Por otro lado, el artículo 143 detalla el destino que se le dará a los productos o bienes decomisados, incluyendo opciones como remate en subasta pública, venta directa de productos pesqueros, donación a establecimientos de asistencia social o de rehabilitación, y destrucción de productos contaminados o en estado de descomposición.",
+        "context": "ARTÍCULO 142.- El decomiso de artes de pesca y productos obtenidos de la pesca, se realizará cuando se actualice el supuesto de las fracciones I, V, VII, X, XIII, XVII, XIX, XX, XXI, XXIII, XXVII y XXX del artículo 132, independientemente de la multa correspondiente. ARTÍCULO 143.- A los productos o bienes decomisados, se les dará el destino que disponga la Secretaría, conforme a las siguientes alternativas: I. Remate en subasta pública; II. Venta directa de productos pesqueros; III. Donación a establecimientos de asistencia social o de rehabilitación, tratándose de productos de la pesca deportivo-recreativa o productos capturados en época de veda o en tallas menores a las autorizadas; y IV. Destrucción de productos contaminados o en estado de descomposición y en el caso de artes de pesca prohibidas, cuando sea procedente."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Proporciona asesoramiento legal sobre los supuestos para realizar el decomiso de artes de pesca y productos obtenidos de la pesca según la Ley General de Pesca y Acuacultura Sustentables.",
+        "output": "De acuerdo con la Ley General de Pesca y Acuacultura Sustentables, el decomiso de artes de pesca y productos obtenidos de la pesca se llevará a cabo cuando se actualicen los supuestos establecidos en las fracciones I, V, VII, X, XIII, XVII, XIX, XX, XXI, XXIII, XXVII y XXX del artículo 132, independientemente de la multa correspondiente.",
+        "context": "ARTÍCULO 142.- El decomiso de artes de pesca y productos obtenidos de la pesca, se realizará cuando se actualice el supuesto de las fracciones I, V, VII, X, XIII, XVII, XIX, XX, XXI, XXIII, XXVII y XXX del artículo 132 de la Ley, independientemente de la multa correspondiente."
+      },
+      {
+        "instruction": "Ofrece asesoramiento legal sobre el destino de los productos o bienes decomisados según la Ley General de Pesca y Acuacultura Sustentables.",
+        "output": "Según la Ley General de Pesca y Acuacultura Sustentables, los productos o bienes decomisados recibirán un destino determinado por la Secretaría, que puede incluir opciones como remate en subasta pública, venta directa de productos pesqueros, donación a establecimientos de asistencia social o de rehabilitación, y destrucción de productos contaminados o en estado de descomposición.",
+        "context": "ARTÍCULO 143.- A los productos o bienes decomisados, se les dará el destino que disponga la Secretaría, conforme a las siguientes alternativas: I. Remate en subasta pública; II. Venta directa de productos pesqueros; III. Donación a establecimientos de asistencia social o de rehabilitación, tratándose de productos de la pesca deportivo-recreativa o productos capturados en época de veda o en tallas menores a las autorizadas; y IV. Destrucción de productos contaminados o en estado de descomposición y en el caso de artes de pesca prohibidas, cuando sea procedente."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo de ley que establezca los supuestos para realizar el decomiso de artes de pesca y productos obtenidos de la pesca.",
+        "output": "ARTÍCULO [Número del artículo].- El decomiso de artes de pesca y productos obtenidos de la pesca se llevará a cabo cuando se actualicen los supuestos establecidos en las fracciones [Lista de fracciones] del artículo 132 de esta Ley, independientemente de la multa correspondiente.",
+        "context": "Este artículo debe ser redactado siguiendo el formato y la estructura de la Ley General de Pesca y Acuacultura Sustentables."
+      },
+      {
+        "instruction": "Redacta un artículo de ley que establezca el destino de los productos o bienes decomisados según la Ley General de Pesca y Acuacultura Sustentables.",
+        "output": "ARTÍCULO [Número del artículo].- A los productos o bienes decomisados se les dará el destino que disponga la Secretaría, conforme a las siguientes alternativas: I. Remate en subasta pública; II. Venta directa de productos pesqueros; III. Donación a establecimientos de asistencia social o de rehabilitación; IV. Destrucción de productos contaminados o en estado de descomposición y en el caso de artes de pesca prohibidas, cuando sea procedente.",
+        "context": "Este artículo debe ser redactado siguiendo el formato y la estructura de la Ley General de Pesca y Acuacultura Sustentables."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica qué información deben proporcionar los interesados al solicitar un permiso para descargar en puertos extranjeros o transbordar especies capturadas por embarcaciones pesqueras de bandera mexicana, según el artículo 73.",
+        "output": "Los interesados deben proporcionar, adjunta a la solicitud del permiso, la información que se determine en el reglamento de esta Ley.",
+        "context": "ARTÍCULO 73.- El permiso para descargar en puertos extranjeros o transbordar especies capturadas por embarcaciones pesqueras de bandera mexicana, será otorgado por la Secretaría, siempre y cuando los interesados proporcionen, adjunta a la solicitud del permiso, la información que se determine en el reglamento de esta Ley."
+      },
+      {
+        "instruction": "¿Qué requisitos deben cumplir los interesados al solicitar un permiso para la descarga en puertos mexicanos de productos pesqueros vivos, frescos, enhielados o congelados provenientes de la pesca comercial, según el artículo 74?",
+        "output": "Los interesados deben adjuntar a su solicitud el título correspondiente al amparo del cual se realizó la actividad pesquera, expedido por la autoridad competente del país de origen, y cumplir con los demás requisitos que se establezcan en el reglamento de esta Ley.",
+        "context": "ARTÍCULO 74.- Se requiere permiso para la descarga en puertos mexicanos, que realicen embarcaciones pesqueras de bandera extranjera, de productos pesqueros vivos, frescos, enhielados o congelados provenientes de la pesca comercial. Para ello los interesados deberán adjuntar a su solicitud el título correspondiente al amparo del cual se realizó la actividad pesquera, expedido por la autoridad competente del país de origen, y cumplir con los demás requisitos que se establezcan en el reglamento de esta Ley."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume los objetivos de la Ley en materia de acuacultura según el artículo 78.",
+        "output": "Los objetivos de la Ley en materia de acuacultura son fomentar el desarrollo de la acuacultura como una actividad productiva para diversificar la pesca, incrementar la producción acuícola, promover la definición de sitios para su realización, impulsar el desarrollo de actividades acuícolas, aprovechar de manera responsable los recursos acuícolas, promover la calidad y diversidad de los recursos acuícolas, y fomentar la transferencia y uso de tecnología en los procesos de producción acuícola en poblaciones rurales y de escasos recursos.",
+        "context": "ARTÍCULO 78.- En materia de acuacultura, son objetivos de esta Ley: I. Fomentar el desarrollo de la acuacultura como una actividad productiva que permita la diversificación pesquera, para ofrecer opciones de empleo en el medio rural; II. Incrementar la producción acuícola y la oferta de alimentos que mejoren la dieta de la población mexicana, así como generar divisas; II Bis. Fortalecer el programa de acuacultura rural, que atienda la demanda alimentaria de las comunidades de escasos recursos, se mejore el ingreso de las mismas y se incentive el arraigo en la localidad; II Ter. Fortalecer los programas de capacitación de acuacultura rural, para los productos de localidades rurales; III. Promover la definición de sitios para su realización, su tecnificación y diversificación, orientándola para incrementar su eficiencia productiva reduciendo los impactos ambientales y buscando nuevas tecnologías que permitan ampliar el número de especies que se cultiven; IV. Impulsar el desarrollo de las actividades acuícolas para revertir los efectos de sobreexplotación pesquera; V. Aprovechar de manera responsable, integral y sustentable recursos acuícolas, para asegurar su producción óptima y su disponibilidad; VI. Fomentar y promover la calidad y la diversidad de los recursos acuícolas, y VII. Fomentar la transferencia y uso de tecnología en los procesos de producción acuícola en poblaciones rurales y de escasos recursos."
+      },
+      {
+        "instruction": "Resume las medidas sanitarias que se establecen en la Ley para prevenir enfermedades en especies acuáticas vivas, según el artículo 109.",
+        "output": "Las medidas sanitarias tienen como objetivo prevenir, controlar, combatir y erradicar enfermedades y plagas de las especies acuáticas vivas. Estas medidas incluyen campañas sanitarias, cuarentena, diagnóstico e identificación de enfermedades, retención y disposición de especies acuáticas vivas, y otras medidas que sean eficaces para la prevención de enfermedades.",
+        "context": "ARTÍCULO 109.- Las medidas sanitarias tienen por objeto prevenir, controlar, combatir y erradicar enfermedades y plagas de las especies acuáticas vivas, con la finalidad de proteger su salud y la del hombre. Las medidas sanitarias serán establecidas por el SENASICA. Corresponde a la Secretaría con la opinión del SENASICA la emisión de normas oficiales relativas a esta materia, y cuando la situación lo amerite, podrán ser emergentes. Las normas oficiales podrán comprender alguna o algunas de las siguientes medidas: I. Campañas sanitarias, entendidas como el conjunto de medidas para prevenir, controlar o erradicar enfermedades o plagas de las especies acuáticas vivas en un área o zona determinada; II. La cuarentena, siendo una medida basada en el aislamiento, observación y restricción de la movilización de especies acuáticas vivas, por la sospecha o existencia de una enfermedad de las mismas, sujeta a control; III. El diagnóstico e identificación de enfermedades y plagas de las especies mencionadas; IV. La retención y disposición de especies acuáticas vivas, sus productos, subproductos y productos químicos, farmacéuticos, biológicos y alimenticios, para uso o consumo de dichas especies, que puedan ocasionar enfermedades o plagas en los mismos, y V. Las demás que se establezcan en las propias normas oficiales, así como aquellas que, conforme a los avances y adelantos científicos y tecnológicos, sean eficaces para la atención de cada caso de enfermedad o plaga."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Basándote en el artículo 90, ¿qué requisitos deben cumplir las personas físicas o morales de nacionalidad mexicana al solicitar un permiso para la acuacultura?",
+        "output": "Las personas deben cumplir con los requisitos establecidos en la Ley y en las disposiciones reglamentarias, congruentes con los planes de ordenamiento acuícola. Además, deben acreditar la legal disposición de los bienes y equipos necesarios para cumplir con el objeto de la solicitud.",
+        "context": "ARTÍCULO 90.- La Secretaría podrá otorgar permisos para la acuacultura a personas físicas o morales de nacionalidad mexicana, previo cumplimiento de los requisitos que se establezcan en esta Ley y en las disposiciones reglamentarias, mismos que deberán ser congruentes con los planes de ordenamiento acuícola. Los solicitantes de permisos deberán acreditar la legal disposición de los bienes y equipos necesarios para cumplir con el objeto de la solicitud."
+      },
+      {
+        "instruction": "¿Qué requisitos deben cumplir las personas físicas o morales para obtener un permiso de acuacultura de fomento, según el artículo 93?",
+        "output": "Las personas físicas o morales deben cumplir con los mismos requisitos que se establecen para las instituciones de investigación. Además, el permiso podrá comprender la comercialización de las cosechas obtenidas, con los límites y condiciones que se establezcan en el reglamento de esta Ley y en el propio permiso.",
+        "context": "ARTÍCULO 93.- Con el propósito de estimular la diversificación y tecnificación de cultivos, la Secretaría promoverá la acuacultura de fomento y podrá permitirla a instituciones de investigación científica y docencia, así como a personas físicas dedicadas a actividades científicas y técnicas. La Secretaría podrá otorgar permiso de acuacultura de fomento a personas morales cuya actividad u objeto social sea la pesca o el cultivo, comercialización o transformación de productos acuícolas, debiendo cumplir con los mismos requisitos que se establecen para las instituciones de investigación. El permiso podrá comprender la comercialización de las cosechas que se obtengan, con los límites y condiciones que se establezcan en el reglamento de esta Ley y en el propio permiso."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un fragmento de un documento legal que establezca los requisitos para obtener un certificado de sanidad acuícola, basándote en el artículo 105.",
+        "output": "Se establecen los requisitos para obtener un certificado de sanidad acuícola, los cuales incluyen la importación y exportación de especies acuáticas, la movilización de especies acuícolas vivas, el funcionamiento de establecimientos relacionados con productos acuícolas, el uso de antibióticos y medicamentos veterinarios, y la introducción de especies vivas en cuerpos de agua de jurisdicción federal. Estos requisitos deben cumplirse de acuerdo con las normas oficiales y el reglamento de la Ley.",
+        "context": "ARTÍCULO 105.- Requerirán de certificado de sanidad acuícola, de manera previa a su realización, las siguientes actividades: I. La importación y exportación y tránsito internacional de especies acuáticas, sus productos y subproductos y de productos biológicos, químicos, farmacéuticos o alimenticios para uso o consumo de dichas especies; II. La movilización de especies acuícolas vivas, en cualesquiera de sus fases de desarrollo, que se cultiven en instalaciones ubicadas en el territorio nacional, que se haga de una unidad de producción acuícola a otra, así como sus productos y subproductos y de productos biológicos, químicos, farmacéuticos o alimenticios para uso o consumo de dichas especies; III. Los establecimientos en operación en los que se produzcan, procesen, comercialicen, transporten y almacenen productos y subproductos acuícolas, así como productos químicos, biológicos, farmacéuticos y alimenticios para el uso o consumo de dichas especies; IV. Uso y aplicación de antibióticos, medicamentos veterinarios, aditivos y demás sustancias químicas a los organismos de cultivo, y V. La introducción de especies acuícolas vivas a un cuerpo de agua de jurisdicción federal. Respecto de la importación de especies acuáticas a que se refiere la fracción I de este artículo, será requisito para obtener el certificado de sanidad que el solicitante cuente con la autorización correspondiente expedida por la autoridad competente del país de origen y acredite dicha situación en el expediente respectivo."
+      },
+      {
+        "instruction": "Redacta un fragmento de un documento legal que establezca las medidas sanitarias para prevenir enfermedades en especies acuáticas vivas, basándote en el artículo 109.",
+        "output": "Se establecen las medidas sanitarias para prevenir, controlar, combatir y erradicar enfermedades y plagas de las especies acuáticas vivas. Estas medidas incluyen campañas sanitarias, cuarentena, diagnóstico e identificación de enfermedades, retención y disposición de especies acuáticas vivas, y otras medidas eficaces para la prevención de enfermedades. La emisión de normas oficiales y la zonificación sanitaria son responsabilidad del SENASICA.",
+        "context": "ARTÍCULO 109.- Las medidas sanitarias tienen por objeto prevenir, controlar, combatir y erradicar enfermedades y plagas de las especies acuáticas vivas, con la finalidad de proteger su salud y la del hombre. Las medidas sanitarias serán establecidas por el SENASICA. Corresponde a la Secretaría con la opinión del SENASICA la emisión de normas oficiales relativas a esta materia, y cuando la situación lo amerite, podrán ser emergentes. Las normas oficiales podrán comprender alguna o algunas de las siguientes medidas: I. Campañas sanitarias, entendidas como el conjunto de medidas para prevenir, controlar o erradicar enfermedades o plagas de las especies acuáticas vivas en un área o zona determinada; II. La cuarentena, siendo una medida basada en el aislamiento, observación y restricción de la movilización de especies acuáticas vivas, por la sospecha o existencia de una enfermedad de las mismas, sujeta a control; III. El diagnóstico e identificación de enfermedades y plagas de las especies mencionadas; IV. La retención y disposición de especies acuáticas vivas, sus productos, subproductos y productos químicos, farmacéuticos, biológicos y alimenticios, para uso o consumo de dichas especies, que puedan ocasionar enfermedades o plagas en los mismos, y V. Las demás que se establezcan en las propias normas oficiales, así como aquellas que, conforme a los avances y adelantos científicos y tecnológicos, sean eficaces para la atención de cada caso de enfermedad o plaga."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identify the article that establishes the procedures for alternative mechanisms related to environmental crimes that do not qualify for forgiveness or legal disinterest from the victim or the prosecutor.",
+        "output": "Article 51 regulates alternative mechanisms for environmental crimes that do not qualify for forgiveness or legal disinterest from the victim or the prosecutor.",
+        "context": "ArtÃ­culo 51.- Los mecanismos alternativos que se refieran a conductas constitutivas de delitos contra el ambiente, respecto de las que no proceda el perdÃ³n o el desinterÃ©s jurÃ­dico de la vÃ­ctima o de la procuradurÃ­a, se regularÃ¡n en tÃ©rminos del TÃ­tulo Tercero de esta Ley y el CÃ³digo Federal de Procedimientos Penales."
+      },
+      {
+        "instruction": "Explain the role of the Ministry of Public in requesting the repair and compensation for damages caused to the environment.",
+        "output": "The Ministry of Public is obligated to request the repair and compensation for damages caused to the environment.",
+        "context": "El Ministerio PÃºblico estÃ¡ obligado a solicitar de oficio la reparaciÃ³n y compensaciÃ³n de los daÃ±os ocasionados al ambiente."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Summarize the procedures established in Article 52 for conflicts and procedures related to crimes against the environment.",
+        "output": "Article 52 outlines the application of the provisions for criminal conflicts and procedures arising from crimes against the environment and environmental management.",
+        "context": "ArtÃ­culo 52.- Las disposiciones del presente TÃ­tulo serÃ¡n aplicables a los conflictos penales y los procedimientos derivados de la comisiÃ³n de delitos contra el ambiente y la gestiÃ³n ambiental, de conformidad a lo previsto por el CÃ³digo Penal Federal y el CÃ³digo Federal de Procedimientos Penales."
+      },
+      {
+        "instruction": "Provide a summary of the responsibilities of the Executive Federal and the Congress in developing comprehensive policies for environmental damage prevention.",
+        "output": "The Executive Federal and the Congress are responsible for developing comprehensive policies for environmental damage prevention.",
+        "context": "ArtÃ­culo 53.- El Ejecutivo Federal y el Congreso de la UniÃ³n desarrollarÃ¡n polÃ­ticas integrales en materia de prevenciÃ³n de daÃ±os al ambiente; investigaciÃ³n, persecuciÃ³n, sanciÃ³n y prevenciÃ³n general y especial de los delitos e infracciones administrativas que los ocasionan; asÃ­ como para la reinserciÃ³n social de los individuos penal y ambientalmente responsables que induzcan al respeto de las Leyes ambientales y los tratados internacionales de los que MÃ©xico sea Parte."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Provide legal advice on the obligation of public servants to report potential environmental crimes to the Ministry of Public.",
+        "output": "Public servants are obligated to immediately report potential environmental crimes to the Ministry of Public.",
+        "context": "Todo servidor pÃºblico estÃ¡ obligado a notificar de manera inmediata al Ministerio PÃºblico, la probable existencia de un hecho que la Ley considere como delito contra el ambiente, asÃ­ como la identidad de quien posiblemente lo haya cometido o haya participado en su comisiÃ³n, transmitiendo todos los datos que tuviere al respecto poniendo a disposiciÃ³n a los inculpados si hubieren sido detenidos."
+      },
+      {
+        "instruction": "Offer legal advice on the collaboration between the ProcuradurÃ­a and the Ministry of Public in achieving environmental damage repair and compensation.",
+        "output": "The ProcuradurÃ­a collaborates with the Ministry of Public in achieving environmental damage repair and compensation.",
+        "context": "Para efectos de lograr la reparaciÃ³n y compensaciÃ³n de los daÃ±os ocasionados al ambiente la ProcuradurÃ­a serÃ¡ coadyuvante del Ministerio PÃºblico, en los tÃ©rminos previstos por el CÃ³digo Federal de Procedimientos Penales."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Draft a legal document outlining the responsibilities of individuals to report environmental crimes directly to the Ministry of Public.",
+        "output": "In accordance with the law, individuals are required to report environmental crimes directly to the Ministry of Public.",
+        "context": "ArtÃ­culo 54.- Toda persona que tenga conocimiento de la comisiÃ³n de un delito contra el ambiente podrÃ¡ denunciarlo directamente ante el Ministerio PÃºblico."
+      },
+      {
+        "instruction": "Compose a legal document detailing the establishment of specialized District Courts for environmental matters within a specific timeframe.",
+        "output": "Specialized District Courts for environmental matters must be established within a specific timeframe.",
+        "context": "TERCERO.- Los Juzgados de Distrito especializados en materia ambiental deberÃ¡n establecerse en un tÃ©rmino mÃ¡ximo de dos aÃ±os contados a partir de la entrada en vigor del presente Decreto."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identify the requirements for submitting a request for discharge according to the legal document.",
+        "output": "The requirements for submitting a request for discharge include: a) Compliance with applicable regulations and practices by accredited laboratories before the Mexican Accreditation Entity; b) Environmental monitoring programs, bathymetric studies, hydrodynamic studies, and benthic composition studies of the discharge zone before, during, and after discharge; c) Proposal of a shooting zone considering various factors such as oceanographic aspects, biological aspects, geographical position, recreational activities, natural beauty, cultural or historical interest, scientific importance, natural refuges, spawning, reproduction and repopulation zones, migratory routes, seasonal and critical habitats, fishing zones, navigation routes, technological uses of the seabed, exclusion zones, and other legitimate uses of the sea; d) Payment of fees for processing, studies, and discharge authorization as established in the Federal Rights Law; e) Triplicate documentation and electronic filing; f) Opinion from relevant authorities such as the municipal authority, the Ministry of Communications and Transportation, the Ministry of Energy through the National Commission of Nuclear Safety and Safeguards, and the Ministry of Health if necessary.",
+        "context": "echos u otras materias que se pretenden verter, que se realicen conforme a la normatividad aplicable y practicados por laboratorios acreditados ante la Entidad Mexicana de AcreditaciÃ³n; V. Programas de monitoreos ambientales, estudios batimÃ©tricos, hidrodinÃ¡micos y de la composiciÃ³n bentÃ³nica de la zona de vertimiento, antes, durante y despuÃ©s del mismo; VI. Propuesta de zona de tiro, debiendo considerar los aspectos oceanogrÃ¡ficos, biolÃ³gicos, la posiciÃ³n geogrÃ¡fica, actividades de esparcimiento, belleza natural, interÃ©s cultural o histÃ³rico, importancia cientÃ­fica, refugios naturales; zonas de desove, reproducciÃ³n y repoblaciÃ³n; rutas migratorias; hÃ¡bitat estacionales y crÃ­ticos; zonas de pesca; vÃ­as de navegaciÃ³n; usos tecnolÃ³gicos del fondo del mar; zonas de exclusiÃ³n y otros usos legÃ­timos del mar; VII. Comprobante de pago de derechos por concepto de trÃ¡mite, estudio y autorizaciÃ³n de vertimiento, conforme se establezca en la Ley Federal de Derechos; VIII. Triplicado de la documentaciÃ³n y archivo electrÃ³nico, y IX. SegÃºn sea el caso, conforme se establezca en el formato correspondiente, la opiniÃ³n de las siguientes autoridades: a) La autoridad municipal, respecto a la no existencia de un lugar en tierra para llevar a cabo la disposiciÃ³n de desechos u otras materias, incluyendo el material producto de dragado; b) La SecretarÃ­a de Comunicaciones y Transportes, respecto a la afectaciÃ³n al trÃ¡fico marÃ­timo en la zona de vertimiento, las operaciones de Ã©ste o el vertimiento, y c) La SecretarÃ­a de EnergÃ­a, por conducto de la ComisiÃ³n Nacional de Seguridad Nuclear y Salvaguardias, cuando se presuma que los materiales o sustancias a verter contienen materiales radioactivos. La SecretarÃ­a de Salud, a peticiÃ³n de la SecretarÃ­a, cuando el caso lo requiera, emitirÃ¡ el dictamen correspondiente respecto a la afectaciÃ³n a la salud humana, como consecuencia del vertimiento de desechos o materias, en los tÃ©rminos de las disposiciones jurÃ­dicas que resulten aplicables."
+      },
+      {
+        "instruction": "What information should be included in a discharge permit according to the legal document?",
+        "output": "A discharge permit should include: a) Name of the individual or legal entity; b) Volume of waste or other materials to be discharged in cubic meters; c) Description of the material or waste to be discharged; d) Project name; e) Permit validity; f) Geographical location and depth of the authorized shooting zone, as well as the distance to the nearest coast; g) Amount to guarantee the repair of damages, losses, and fines that may be applied for violating the provisions of the Law or the permit; h) Terms and conditions established by the Secretariat for carrying out the discharge; i) Obligation of the permit holder to be responsible for environmental damages that may result from the discharge.",
+        "context": "ArtÃ­culo 22.- El permiso de vertimiento contendrÃ¡ lo siguiente: I. Nombre de la persona fÃ­sica o la denominaciÃ³n o razÃ³n social de la persona moral, segÃºn corresponda; II. Volumen de los desechos u otras materias a verter expresadas en metros cÃºbicos; III. DescripciÃ³n de la materia o desecho a verter; IV. DenominaciÃ³n del Proyecto a desarrollarse; V. Vigencia del permiso; VI. SituaciÃ³n geogrÃ¡fica y profundidad de la zona de tiro autorizada, asÃ­ como la distancia a la costa mÃ¡s cercana; VII. La cantidad que garantice la reparaciÃ³n de los daÃ±os, perjuicios y multa que se pudieran aplicar, por contravenir las disposiciones de la Ley o del permiso; VIII. Los tÃ©rminos y condicionantes que establezca la SecretarÃ­a para llevar a cabo el vertimiento, y IX. La obligaciÃ³n del titular del permiso de responder por los daÃ±os al medio ambiente que pudiera ocasionar el vertimiento."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Summarize the requirements for submitting a request for discharge according to the legal document.",
+        "output": "The requirements for submitting a request for discharge include compliance with applicable regulations and practices by accredited laboratories, environmental monitoring programs, bathymetric studies, proposal of a shooting zone considering various factors, payment of fees, triplicate documentation, and opinions from relevant authorities. The applicant must present the request in writing at least sixty business days before the intended discharge date, ensuring completeness and compliance with the law.",
+        "context": "ArtÃ­culo 20.- El interesado presentarÃ¡ ante la SecretarÃ­a, la solicitud de vertimiento por escrito cuando menos con sesenta dÃ­as hÃ¡biles previos a la fecha en que pretenda realizarlo, por sÃ­ o por medio de representante o apoderado legal, designando a persona con conocimientos cientÃ­ficos, tÃ©cnicos y acadÃ©micos relacionados con aspectos del medio marino; personalidad que acreditarÃ¡ conforme a las disposiciones legales aplicables, adjuntando la documentaciÃ³n que establece la presente Ley. La SecretarÃ­a revisarÃ¡ que la documentaciÃ³n se encuentre completa y cumpla con los requisitos establecidos en la presente Ley. De advertir que estÃ¡ incompleta o que presente omisiones o irregularidades, se la devolverÃ¡ al interesado, para que las subsane dentro de un plazo de quince dÃ­as hÃ¡biles. Si transcurrido dicho plazo no las hubiese subsanado, la solicitud de vertimiento se tendrÃ¡ como no presentada. De cumplirse con los requisitos se integrarÃ¡ el expediente."
+      },
+      {
+        "instruction": "Summarize the content of a discharge permit according to the legal document.",
+        "output": "A discharge permit should include the name of the individual or entity, volume and description of the waste to be discharged, project name, permit validity, geographical location and depth of the authorized discharge zone, amount to guarantee damages, terms and conditions for the discharge, and the obligation of the permit holder to be responsible for environmental damages. The permit is non-transferable, and violations will be sanctioned with suspension, cancellation, or fines.",
+        "context": "ArtÃ­culo 22.- El permiso de vertimiento contendrÃ¡ lo siguiente: I. Nombre de la persona fÃ­sica o la denominaciÃ³n o razÃ³n social de la persona moral, segÃºn corresponda; II. Volumen de los desechos u otras materias a verter expresadas en metros cÃºbicos; III. DescripciÃ³n de la materia o desecho a verter; IV. DenominaciÃ³n del Proyecto a desarrollarse; V. Vigencia del permiso; VI. SituaciÃ³n geogrÃ¡fica y profundidad de la zona de tiro autorizada, asÃ­ como la distancia a la costa mÃ¡s cercana; VII. La cantidad que garantice la reparaciÃ³n de los daÃ±os, perjuicios y multa que se pudieran aplicar, por contravenir las disposiciones de la Ley o del permiso; VIII. Los tÃ©rminos y condicionantes que establezca la SecretarÃ­a para llevar a cabo el vertimiento, y IX. La obligaciÃ³n del titular del permiso de responder por los daÃ±os al medio ambiente que pudiera ocasionar el vertimiento."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Provide legal advice on the steps to follow when applying for a discharge permit according to the legal document.",
+        "output": "When applying for a discharge permit, it is essential to ensure compliance with all requirements set forth in the law. The applicant must submit a written request at least sixty business days before the intended discharge date. The documentation should be complete and meet the specified criteria. If any deficiencies are identified, the applicant will be given a fifteen-day period to rectify them. Failure to address the deficiencies within this timeframe will result in the request being considered as not submitted. It is crucial to engage with accredited laboratories, conduct environmental monitoring programs, and obtain opinions from relevant authorities as necessary.",
+        "context": "ArtÃ­culo 20.- El interesado presentarÃ¡ ante la SecretarÃ­a, la solicitud de vertimiento por escrito cuando menos con sesenta dÃ­as hÃ¡biles previos a la fecha en que pretenda realizarlo, por sÃ­ o por medio de representante o apoderado legal, designando a persona con conocimientos cientÃ­ficos, tÃ©cnicos y acadÃ©micos relacionados con aspectos del medio marino; personalidad que acreditarÃ¡ conforme a las disposiciones legales aplicables, adjuntando la documentaciÃ³n que establece la presente Ley. La SecretarÃ­a revisarÃ¡ que la documentaciÃ³n se encuentre completa y cumpla con los requisitos establecidos en la presente Ley. De advertir que estÃ¡ incompleta o que presente omisiones o irregularidades, se la devolverÃ¡ al interesado, para que las subsane dentro de un plazo de quince dÃ­as hÃ¡biles. Si transcurrido dicho plazo no las hubiese subsanado, la solicitud de vertimiento se tendrÃ¡ como no presentada. De cumplirse con los requisitos se integrarÃ¡ el expediente."
+      },
+      {
+        "instruction": "Offer legal advice on the content that should be included in a discharge permit according to the legal document.",
+        "output": "When preparing a discharge permit, it is crucial to include specific details such as the name of the individual or entity, volume and description of the waste to be discharged, project name, permit validity, geographical location and depth of the authorized discharge zone, amount to guarantee damages, terms and conditions for the discharge, and the obligation of the permit holder to be responsible for environmental damages. It is important to ensure that the permit is non-transferable and that any violations will result in sanctions such as suspension, cancellation, or fines.",
+        "context": "ArtÃ­culo 22.- El permiso de vertimiento contendrÃ¡ lo siguiente: I. Nombre de la persona fÃ­sica o la denominaciÃ³n o razÃ³n social de la persona moral, segÃºn corresponda; II. Volumen de los desechos u otras materias a verter expresadas en metros cÃºbicos; III. DescripciÃ³n de la materia o desecho a verter; IV. DenominaciÃ³n del Proyecto a desarrollarse; V. Vigencia del permiso; VI. SituaciÃ³n geogrÃ¡fica y profundidad de la zona de tiro autorizada, asÃ­ como la distancia a la costa mÃ¡s cercana; VII. La cantidad que garantice la reparaciÃ³n de los daÃ±os, perjuicios y multa que se pudieran aplicar, por contravenir las disposiciones de la Ley o del permiso; VIII. Los tÃ©rminos y condicionantes que establezca la SecretarÃ­a para llevar a cabo el vertimiento, y IX. La obligaciÃ³n del titular del permiso de responder por los daÃ±os al medio ambiente que pudiera ocasionar el vertimiento."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Draft a section of a legal document outlining the steps for conducting inspections and surveillance according to the legal document.",
+        "output": "Section: Inspections and Surveillance. Article 28.- Accredited personnel from the Secretariat will carry out inspections and surveillance visits to ensure compliance with the law and the 1996 Protocol related to the Prevention of Marine Pollution by Dumping of Wastes and Other Matters, 1972. Article 29.- Inspections and surveillance will be conducted by authorized personnel from the Secretariat, who will carry official credentials and a commission letter. In case of violations or suspected violations, the authorized personnel will proceed according to the law. Captains, ship pilots, and individuals in charge of maritime activities must cooperate with the Secretariat during inspections, providing necessary documentation and access to all areas as required.",
+        "context": "ArtÃ­culo 28.- Personal acreditado de la SecretarÃ­a, llevarÃ¡ a cabo las visitas de inspecciÃ³n y vigilancia para el cumplimiento de la presente Ley, asÃ­ como el Decreto Promulgatorio del Protocolo de 1996 relativo al Convenio sobre la PrevenciÃ³n de la ContaminaciÃ³n del Mar por Vertimiento de Desechos y Otras Materias, 1972. ArtÃ­culo 29.- Los actos de InspecciÃ³n y vigilancia se llevarÃ¡n a cabo por personal acreditado de la SecretarÃ­a debidamente autorizado. Para tal efecto se expedirÃ¡ credencial oficial que acredite su personalidad, asÃ­ como el oficio de comisiÃ³n debidamente fundado y motivado."
+      },
+      {
+        "instruction": "Draft a section of a legal document outlining the penalties for violations of the law according to the legal document.",
+        "output": "Section: Penalties and Sanctions. Article 41.- Violations of the law include omissions in reporting force majeure discharge, non-compliance with obligations, and other specified infractions. Article 42.- Penalties may include suspension of permits for up to 60 days, permit cancellation, or fines ranging from 250 to 50,000 days of minimum wage. Repeat offenders may face increased fines or permit cancellation. The severity of the penalty will consider factors such as environmental risks, actions or omissions, economic conditions, and compliance with corrective measures.",
+        "context": "ArtÃ­culo 41.- Son infracciones a la presente Ley, las siguientes: I. Omitir informar de vertimientos realizados por causas de fuerza mayor; II. Incumplir las obligaciones a que se refiere el artÃ­culo 27; III. Actualizarse alguno de los supuestos a que se refiere el artÃ­culo 54; IV. Se incumplan las obligaciones previstas en el artÃ­culo 23; V. No cumplir con los Acuerdos que conforme a esta Ley, expida la SecretarÃ­a; VI. No cumplir con los tÃ©rminos especificados en el permiso de vertimiento; VII. Abandonar un buque, aeronave, artefacto naval, estructura o plataforma, sin informar a la SecretarÃ­a oportunamente; VIII. Efectuar vertimientos sin la autorizaciÃ³n de la SecretarÃ­a; IX. Efectuar vertimientos posteriores a una suspensiÃ³n; X. Efectuar vertimientos posteriores a una cancelaciÃ³n, y XI. Incurrir en cualquier otra violaciÃ³n a los preceptos de esta Ley y su Reglamento."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica cuáles son los supuestos que pueden ser sancionados con multa de acuerdo al artículo 43 de la Ley.",
+        "output": "Los supuestos que pueden ser sancionados con multa de acuerdo al artículo 43 de la Ley son aquellos en los que el infractor incurra más de una vez en conductas que impliquen infracciones a un mismo precepto, siempre que esta no haya sido desvirtuada.",
+        "context": "Artículo 43.- Se considera reincidente, al infractor que incurra más de una vez en conductas que impliquen infracciones a un mismo precepto, siempre que ésta no hubiese sido desvirtuada."
+      },
+      {
+        "instruction": "Explica cuáles son las circunstancias que la Secretaría debe considerar para imponer sanciones por infracciones a la Ley, según el artículo 44.",
+        "output": "La Secretaría debe considerar las siguientes circunstancias para imponer sanciones por infracciones a la Ley: los riesgos o daños producidos o que puedan producirse en la salud humana; la generación de desequilibrio ecológico; la afectación de recursos naturales o de la biodiversidad; la acción u omisión; la reincidencia del infractor; las condiciones económicas del infractor; el beneficio directamente obtenido por el infractor por los actos que motiven el vertimiento; y que se hayan cometido diversas infracciones.",
+        "context": "Artículo 44.- Para la imposición de las sanciones por infracciones a la presente Ley, la Secretaría deberá tomar en consideración las circunstancias siguientes: I. Los riesgos o daños producidos o que puedan producirse en la salud humana; la generación de desequilibrio ecológico; la afectación de recursos naturales o de la biodiversidad; II. La acción u omisión; III. La reincidencia del infractor; IV. Las condiciones económicas del infractor; V. El beneficio directamente obtenido por el infractor por los actos que motiven el vertimiento; VI. En caso de que el infractor realice medidas correctivas o de urgente aplicación o subsane las irregularidades en que hubiere incurrido, previamente a que se imponga una sanción, la Secretaría deberá considerar tal situación como atenuante de la infracción, y VII. Que se hayan cometido diversas infracciones."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume los artículos 53 al 56 de la Ley en relación con la cancelación del permiso de vertimiento.",
+        "output": "Los artículos 53 al 56 de la Ley establecen las causas de cancelación del permiso de vertimiento, las responsabilidades del interesado o su representante legal en caso de cancelación, y las acciones que deben tomarse en caso de vertimientos por caso fortuito o fuerza mayor.",
+        "context": "Artículo 53.- La Secretaría le notificará al interesado, o a su representante legal, la cancelación del permiso, lo cual no lo exime de las responsabilidades contraídas con terceros o con autoridades Federales, Estatales o Municipales durante la vigencia del mismo. La cancelación del permiso de vertimiento será definitiva para quien no cumpla con esta Ley. Artículo 54.- Son causas de cancelación del permiso de vertimiento, las siguientes: I. Dejar de cumplir cualquiera de las condicionantes establecidas en el permiso respectivo; II. Que las obras o actividades autorizadas pongan en riesgo u ocasionen afectaciones que llegasen a alterar los patrones de comportamiento de los recursos bióticos y/o algún tipo de afectación, daño o deterioro sobre los elementos abióticos presentes en la zona de tiro autorizada, así como en su área de influencia, en cuyo caso el autorizado deberá instrumentar programas de compensación; III. Cuando de la evaluación de los estudios requeridos antes, durante y después del vertimiento, se determine que estuviera en riesgo el equilibrio ecológico o se produjeran afectaciones nocivas imprevistas en el ambiente; IV. Cuando se detecte que la información proporcionada por el solicitante fue falsa o alterada, incluyendo los resultados de laboratorio; V. No realizar actividad alguna dentro de los tres meses posteriores a su otorgamiento; VI. Transferir el permiso, y VII. Incumplir cualquiera de las obligaciones o condiciones establecidas en esta Ley, así como en materia ambiental."
+      },
+      {
+        "instruction": "Haz un resumen de los artículos 57 al 62 de la Ley referentes a la responsabilidad por vertimientos en violación a las disposiciones legales.",
+        "output": "Los artículos 57 al 62 de la Ley establecen la responsabilidad de las personas que realicen vertimientos en violación a las disposiciones legales, la obligación de reparar el daño ambiental, las acciones de remediació, y las consecuencias en caso de incumplimiento de las obligaciones de remediació.",
+        "context": "Artículo 57.- Las personas que realicen un vertimiento en violación a las disposiciones legales aplicables, asumirán la responsabilidad de reparar la afectación o daño ambiental al medio marino, de acuerdo a la Ley Federal de Responsabilidad Ambiental, sin perjuicio de la aplicaciónde las sanciones administrativas, penales o civiles que procedan, mediante las acciones de remediació que resulten aplicables, restituyendo el ambiente marino, al estado que guardaba antes del vertimiento o cuando esto no fuere posible, mediante el pago de una indemnizació que será cuantificada por la Secretaría en función de la afectación o daño causado al medio marino. Artículo 58.- Ninguna persona será relevada de su responsabilidad, si la necesidad de efectuar el vertimiento para salvaguardar la vida humana en la mar o la seguridad de cualquier embarcación, artefacto naval, aeronave, plataforma u otro; se debió a negligencia de su parte. Artículo 59.- La Secretaría en coordinación con las demás dependencias de la Administración Pública Federal, intervendrá para que los responsables del vertimiento cumplan con la remediació que corresponda y ejecuten acciones para prevenir la dispersión del contaminante en el medio marino. Artículo 60.- En caso de incumplimiento de la obligación de remediació, la Secretaría en coordinación con la Secretaría de Medio Ambiente y Recursos Naturales, podrá ejecutar las acciones necesarias con el propósito de llevar a cabo la remediació para la recuperación y restablecimiento del ambiente marino al estado que guardaba antes de producirse el vertimiento con cargo a los obligados, quienes deberán pagar la contraprestació respectiva que tendrá el carácter de crédito fiscal y su recuperación será mediante el procedimiento económico coactivo correspondiente. Para el procedimiento económico coactivo previsto en este artículo se aplicarán supletoriamente las disposiciones del Código Fiscal de la Federación y su Reglamento. Artículo 61.- Sin perjuicio de las sanciones a que se hagan acreedores los responsables del vertimiento por el incumplimiento de las acciones de remediació o del procedimiento económico coactivo previsto en el artículo anterior, la Secretaría ejercerá las acciones que procedan para recuperar los costos de la remedició, así como el pago de daños y perjuicios ocasionados por el vertimiento. Para las acciones a que se refiere el presente artículo se aplicarán las disposiciones del Código Federal de Procedimientos Civiles y en lo no previsto en la presente Ley respecto de la responsabilidad por daño o afectación al medio marino y los recursos naturales y ecosistemas que en él se desarrollan, se aplicarán supletoriamente el Código Civil Federal; la Ley General del Equilibrio Ecológico y la Protección al Ambiente y lo dispuesto en los Tratados Internacionales de los que México sea parte. Artículo 62.- En el caso de los vertimientos realizados en contravención a la Ley en las zonas marinas mexicanas que causen daños al ambiente marino de otros Estados, los gobiernos extranjeros podrán demandar al responsable del vertimiento el pago de la remediació al medio marino, ante los tribunales mexicanos, sin perjuicio de las acciones que puedan ejercer los afectados ante los organismos internacionales para el pago de los daños y perjuicios ocasionados."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Brinda asesoramiento legal sobre las consecuencias de la reincidencia en infracciones a la Ley, según lo establecido en el artículo 43.",
+        "output": "En caso de reincidencia en infracciones a la Ley, el monto de la multa puede ser hasta por dos veces el monto originalmente impuesto, además de la posibilidad de cancelación del permiso. Es importante evitar incurrir en conductas que impliquen infracciones repetidas a un mismo precepto para evitar sanciones más severas.",
+        "context": "Artículo 43.- Se considera reincidente, al infractor que incurra más de una vez en conductas que impliquen infracciones a un mismo precepto, siempre que ésta no hubiese sido desvirtuada. En caso de reincidencia, el monto de la multa podrá ser hasta por dos veces el monto originalmente impuesto, así como la cancelación del permiso."
+      },
+      {
+        "instruction": "Ofrece consejo legal sobre las responsabilidades de reparar el daño ambiental causado por vertimientos en violación a las disposiciones legales, según lo establecido en los artículos 57 al 60 de la Ley.",
+        "output": "Las personas que realicen vertimientos en violación a las disposiciones legales deben asumir la responsabilidad de reparar el daño ambiental al medio marino, de acuerdo a la Ley Federal de Responsabilidad Ambiental. Es importante cumplir con las acciones de remediació correspondientes para restituir el ambiente marino al estado anterior al vertimiento y evitar sanciones adicionales.",
+        "context": "Artículo 57.- Las personas que realicen un vertimiento en violación a las disposiciones legales aplicables, asumirán la responsabilidad de reparar la afectación o daño ambiental al medio marino, de acuerdo a la Ley Federal de Responsabilidad Ambiental, sin perjuicio de la aplicaciónde las sanciones administrativas, penales o civiles que procedan, mediante las acciones de remediació que resulten aplicables, restituyendo el ambiente marino, al estado que guardaba antes del vertimiento o cuando esto no fuere posible, mediante el pago de una indemnizació que será cuantificada por la Secretaría en función de la afectación o daño causado al medio marino. Artículo 58.- Ninguna persona será relevada de su responsabilidad, si la necesidad de efectuar el vertimiento para salvaguardar la vida humana en la mar o la seguridad de cualquier embarcación, artefacto naval, aeronave, plataforma u otro; se debió a negligencia de su parte. Artículo 59.- La Secretaría en coordinación con las demás dependencias de la Administración Pública Federal, intervendrá para que los responsables del vertimiento cumplan con la remediació que corresponda y ejecuten acciones para prevenir la dispersión del contaminante en el medio marino. Artículo 60.- En caso de incumplimiento de la obligación de remediació, la Secretaría en coordinación con la Secretaría de Medio Ambiente y Recursos Naturales, podrá ejecutar las acciones necesarias con el propósito de llevar a cabo la remediació para la recuperación y restablecimiento del ambiente marino al estado que guardaba antes de producirse el vertimiento con cargo a los obligados, quienes deberán pagar la contraprestació respectiva que tendrá el carácter de crédito fiscal y su recuperación será mediante el procedimiento económico coactivo correspondiente."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un documento legal que establezca las responsabilidades y consecuencias de la reincidencia en infracciones a la Ley, basado en el artículo 43.",
+        "output": "En virtud de lo dispuesto en el artículo 43 de la Ley, se establece que en caso de reincidencia en conductas que impliquen infracciones a un mismo precepto, el infractor podrá enfrentar una multa de hasta dos veces el monto originalmente impuesto, así como la cancelación del permiso correspondiente. Es fundamental evitar la repetición de infracciones para evitar sanciones más severas.",
+        "context": "Artículo 43.- Se considera reincidente, al infractor que incurra más de una vez en conductas que impliquen infracciones a un mismo precepto, siempre que ésta no hubiese sido desvirtuada. En caso de reincidencia, el monto de la multa podrá ser hasta por dos veces el monto originalmente impuesto, así como la cancelación del permiso."
+      },
+      {
+        "instruction": "Elabora un documento legal que detalle las responsabilidades de reparar el daño ambiental causado por vertimientos en violación a las disposiciones legales, basado en los artículos 57 al 60 de la Ley.",
+        "output": "Conforme a lo establecido en los artículos 57 al 60 de la Ley, se establece que las personas que realicen vertimientos en violación a las disposiciones legales asumen la responsabilidad de reparar el daño ambiental al medio marino, de acuerdo a la Ley Federal de Responsabilidad Ambiental. Es imperativo cumplir con las acciones de remediació correspondientes para restituir el ambiente marino al estado previo al vertimiento y evitar sanciones adicionales.",
+        "context": "Artículo 57.- Las personas que realicen un vertimiento en violación a las disposiciones legales aplicables, asumirán la responsabilidad de reparar la afectación o daño ambiental al medio marino, de acuerdo a la Ley Federal de Responsabilidad Ambiental, sin perjuicio de la aplicaciónde las sanciones administrativas, penales o civiles que procedan, mediante las acciones de remediació que resulten aplicables, restituyendo el ambiente marino, al estado que guardaba antes del vertimiento o cuando esto no fuere posible, mediante el pago de una indemnizació que será cuantificada por la Secretaría en función de la afectación o daño causado al medio marino. Artículo 58.- Ninguna persona será relevada de su responsabilidad, si la necesidad de efectuar el vertimiento para salvaguardar la vida humana en la mar o la seguridad de cualquier embarcación, artefacto naval, aeronave, plataforma u otro; se debió a negligencia de su parte. Artículo 59.- La Secretaría en coordinación con las demás dependencias de la Administración Pública Federal, intervendrá para que los responsables del vertimiento cumplan con la remediació que corresponda y ejecuten acciones para prevenir la dispersión del contaminante en el medio marino. Artículo 60.- En caso de incumplimiento de la obligación de remediació, la Secretaría en coordinación con la Secretaría de Medio Ambiente y Recursos Naturales, podrá ejecutar las acciones necesarias con el propósito de llevar a cabo la remediació para la recuperación y restablecimiento del ambiente marino al estado que guardaba antes de producirse el vertimiento con cargo a los obligados, quienes deberán pagar la contraprestació respectiva que tendrá el carácter de crédito fiscal y su recuperación será mediante el procedimiento económico coactivo correspondiente."
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica cuándo entrará en vigor el presente Decreto por el que se adiciona un párrafo segundo al artículo 87 Bis 2 de la Ley General del Equilibrio Ecológico y la Protección al Ambiente, y se adicionan las fracciones X, XXVI y XLVII, recorriéndose las subsecuentes, al artículo 3o. de la Ley General de Vida Silvestre.",
+        "output": "El presente Decreto entrará en vigor el día siguiente al de su publicación en el Diario Oficial de la Federación.",
+        "context": "DECRETO por el que se adiciona un párrafo segundo al artículo 87 Bis 2 de la Ley General del Equilibrio Ecológico y la Protección al Ambiente, y se adicionan las fracciones X, XXVI y XLVII, recorriéndose las subsecuentes, al artículo 3o. de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 5 de noviembre de 2013"
+      },
+      {
+        "instruction": "¿Cuál es la fecha de expedición del presente Decreto por el que se reforma el primer párrafo del artículo 62 de la Ley General de Vida Silvestre?",
+        "output": "El presente Decreto fue expedido en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a 6 de febrero de 2014.",
+        "context": "DECRETO por el que se reforma el primer párrafo del artículo 62 de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 19 de marzo de 2014"
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume el contenido del Decreto por el que se adiciona un párrafo al artículo 60 Bis de la Ley General de Vida Silvestre.",
+        "output": "El Decreto adiciona un párrafo cuarto y recorre el subsecuente al artículo 60 Bis de la Ley General de Vida Silvestre, entrando en vigor el día siguiente a su publicación en el Diario Oficial de la Federación.",
+        "context": "DECRETO por el que se adiciona un párrafo al artículo 60 Bis de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 26 de enero de 2015"
+      },
+      {
+        "instruction": "Haz un resumen del Decreto por el que se reforman y adicionan los artículos 53, 54, 55, 122 y 127 de la Ley General de Vida Silvestre.",
+        "output": "El Decreto reforma el artículo 55 y la fracción II del artículo 127, además de adicionar un último párrafo al artículo 53, un último párrafo al artículo 54 y una fracción XXII Bis al artículo 122 de la Ley General de Vida Silvestre, entrando en vigor al día siguiente de su publicación en el Diario Oficial de la Federación.",
+        "context": "DECRETO por el que se reforman y adicionan los artículos 53, 54, 55, 122 y 127 de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 13 de mayo de 2016"
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "Proporciona asesoramiento legal sobre el plazo para armonizar el Reglamento respectivo en el Decreto por el que se reforman los artículos 27 y 78 y se adiciona un artículo 78 Bis a la Ley General de Vida Silvestre.",
+        "output": "El Ejecutivo Federal cuenta con un plazo de dieciocho meses para armonizar el Reglamento respectivo, según lo establecido en el Decreto.",
+        "context": "DECRETO por el que se reforman los artículos 27 y 78 y se adiciona un artículo 78 Bis a la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 26 de diciembre de 2013"
+      },
+      {
+        "instruction": "Ofrece asesoramiento legal sobre las disposiciones transitorias del Decreto por el que se reforma el segundo párrafo y se adiciona un último párrafo al artículo 78 de la Ley General de Vida Silvestre.",
+        "output": "El Decreto establece que entrará en vigor a los ciento ochenta días naturales posteriores a su publicación en el Diario Oficial de la Federación, con disposiciones específicas para circos y zoológicos.",
+        "context": "DECRETO por el que se reforma el segundo párrafo y se adiciona un último párrafo al artículo 78 de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 9 de enero de 2015"
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un nuevo artículo para la Ley General de Vida Silvestre que establezca los requerimientos mínimos necesarios para el manejo de especies en confinamiento, según lo dispuesto en el Decreto por el que se reforma y adiciona el artículo 127 de dicha Ley.",
+        "output": "Artículo Nuevo: 'Se establecen los requerimientos mínimos necesarios para el manejo de especies en confinamiento, de acuerdo al último párrafo del artículo 78 Bis de la Ley General de Vida Silvestre.'",
+        "context": "DECRETO por el que se reforma y adiciona el artículo 127 de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 19 de diciembre de 2016"
+      },
+      {
+        "instruction": "Redacta un artículo adicional para la Ley General de Vida Silvestre que establezca las facultades concurrentes para las demarcaciones territoriales, según lo establecido en el Decreto por el que se reforman diversas disposiciones de dicha Ley.",
+        "output": "Artículo Nuevo: 'Se definen las facultades concurrentes para las demarcaciones territoriales en la Ley General de Vida Silvestre, de acuerdo al Decreto publicado en el Diario Oficial de la Federación el 19 de enero de 2018.'",
+        "context": "DECRETO por el que se reforman diversas disposiciones de la Ley General de Vida Silvestre. Publicado en el Diario Oficial de la Federación el 19 de enero de 2018"
+      }
+    ]
+  },
+  {
+    "question_answering": [
+      {
+        "instruction": "Identifica qué tipo de exportación de marfil está prohibida según el fragmento de texto legal.",
+        "output": "La exportación de marfil en cualquiera de sus tipos y derivados está prohibida cuando no cumplan con los tratados internacionales de los que México es parte y con la legislación aplicable.",
+        "context": "Queda prohibida la exportación de marfil, en cualquiera de sus tipos y derivados, cuando no cumplan con los tratados internacionales de los que México es parte y con la legislación aplicable."
+      },
+      {
+        "instruction": "¿Qué requisito se necesita para importar ejemplares, partes y derivados de especies silvestres según el artículo 54?",
+        "output": "Se requiere autorización expedida por la Secretaría, de conformidad con lo establecido en el reglamento, para importar ejemplares, partes y derivados de especies silvestres.",
+        "context": "Artículo 54. La importación de ejemplares, partes y derivados de especies silvestres, requerirá de autorización expedida por la Secretaría, de conformidad con lo establecido en el reglamento."
+      }
+    ],
+    "summarization": [
+      {
+        "instruction": "Resume el contenido del artículo 55 bis en relación con la importación, exportación y reexportación de ejemplares de mamífero marino y primate.",
+        "output": "El artículo 55 bis prohíbe la importación, exportación y reexportación de ejemplares de mamífero marino y primate, excepto para investigación científica y muestras de ejemplares en cautiverio con autorización previa de la Secretaría.",
+        "context": "Artículo 55 bis.- Queda prohibida la importación, exportación y reexportación de ejemplares de cualquier especie de mamífero marino y primate, excepto para investigación científica, y las muestras de líquidos, tejidos o células reproductivas de aquellos ejemplares que se encuentren en cautiverio, previa autorización de la Secretaría."
+      },
+      {
+        "instruction": "Resume el contenido del artículo 60 sobre la promoción de la conservación y protección de especies y poblaciones en riesgo.",
+        "output": "El artículo 60 establece que la Secretaría promoverá la conservación y protección de especies y poblaciones en riesgo mediante proyectos de conservación, medidas especiales de manejo y coordinación de programas de seguimiento y certificación del aprovechamiento sustentable.",
+        "context": "Artículo 60. La Secretaría promoverá e impulsará la conservación y protección de las especies y poblaciones en riesgo, por medio del desarrollo de proyectos de conservación y recuperación, el establecimiento de medidas especiales de manejo y conservación de hábitat críticos y de áreas de refugio para proteger especies acuáticas, la coordinación de programas de muestreo y seguimiento permanente, así como de certificación del aprovechamiento sustentable, con la participación en su caso de las personas que manejen dichas especies o poblaciones y demás involucrados."
+      }
+    ],
+    "legal_advice_generation": [
+      {
+        "instruction": "¿Qué requisitos se deben cumplir para obtener autorización de la Secretaría en el artículo 83?",
+        "output": "Para obtener autorización de la Secretaría según el artículo 83, se deben demostrar que las tasas solicitadas son menores a la renovación natural de las poblaciones, que son producto de reproducción controlada en caso de vida silvestre en confinamiento, que no tendrán efectos negativos sobre las poblaciones ni modificarán el ciclo de vida del ejemplar, y que no habrá manipulación que dañe permanentemente al ejemplar en el caso de derivados.",
+        "context": "Artículo 83. El aprovechamiento extractivo de ejemplares, partes y derivados de la vida silvestre requiere de una autorización previa de la Secretaría, en la que se establecerá la tasa de aprovechamiento y su temporalidad."
+      },
+      {
+        "instruction": "¿Qué acciones se deben incluir en un plan de manejo según el artículo 78 Bis?",
+        "output": "Un plan de manejo según el artículo 78 Bis debe incluir elementos como especies, número de ejemplares, descripción del área e infraestructura, cuidados clínicos, medidas de seguridad, educación ambiental, medidas de trato digno y respetuoso, entre otros.",
+        "context": "Artículo 78 Bis. Los planes de manejo a los que se refiere el artículo anterior deberán contener como mínimo los siguientes elementos..."
+      }
+    ],
+    "legal_document_drafting": [
+      {
+        "instruction": "Redacta un artículo sobre la prohibición de la importación de especies de mamífero marino y primate según el artículo 55 bis.",
+        "output": "Artículo 55 bis.- Queda prohibida la importación, exportación y reexportación de ejemplares de cualquier especie de mamífero marino y primate, excepto para investigación científica, y las muestras de líquidos, tejidos o células reproductivas de aquellos ejemplares que se encuentren en cautiverio, previa autorización de la Secretaría.",
+        "context": "Artículo 55 bis.- Queda prohibida la importación, exportación y reexportación de ejemplares de cualquier especie de mamífero marino y primate, excepto para investigación científica, y las muestras de líquidos, tejidos o células reproductivas de aquellos ejemplares que se encuentren en cautiverio, previa autorización de la Secretaría."
+      },
+      {
+        "instruction": "Redacta un artículo sobre la promoción de la conservación y protección de especies y poblaciones en riesgo según el artículo 60.",
+        "output": "Artículo 60. La Secretaría promoverá e impulsará la conservación y protección de las especies y poblaciones en riesgo, por medio del desarrollo de proyectos de conservación y recuperación, el establecimiento de medidas especiales de manejo y conservación de hábitat críticos y de áreas de refugio para proteger especies acuáticas, la coordinación de programas de muestreo y seguimiento permanente, así como de certificación del aprovechamiento sustentable, con la participación en su caso de las personas que manejen dichas especies o poblaciones y demás involucrados.",
+        "context": "Artículo 60. La Secretaría promoverá e impulsará la conservación y protección de las especies y poblaciones en riesgo, por medio del desarrollo de proyectos de conservación y recuperación, el establecimiento de medidas especiales de manejo y conservación de hábitat críticos y de áreas de refugio para proteger especies acuáticas, la coordinación de programas de muestreo y seguimiento permanente, así como de certificación del aprovechamiento sustentable, con la participación en su caso de las personas que manejen dichas especies o poblaciones y demás involucrados."
+      }
+    ]
+  }
+]

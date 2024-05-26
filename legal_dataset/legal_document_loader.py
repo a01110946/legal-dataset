@@ -11,6 +11,7 @@ from typing import List, Dict
 import requests
 import pandas as pd
 import re
+from rich import print
 
 def remove_new_lines(lines: list) -> list:
     clean_text = []
@@ -58,14 +59,14 @@ class LegalDocumentLoader:
         with open(zip_filename, "wb") as file:
             file.write(response.content)
 
-        print(f"Downloaded ZIP file: {zip_filename}")
+        # print(f"Downloaded ZIP file: {zip_filename}")
 
         # Extract the contents of the ZIP file
         extract_directory = "legal_documents"
         with zipfile.ZipFile(zip_filename, "r") as zip_ref:
             zip_ref.extractall(extract_directory)
 
-        print(f"Extracted ZIP file to directory: {extract_directory}")
+        # print(f"Extracted ZIP file to directory: {extract_directory}")
 
         legal_documents = []
 
@@ -79,26 +80,26 @@ class LegalDocumentLoader:
                         with open(file_path, "r", encoding="latin-1") as f:
                             text = f.read().splitlines()
                             clean_text = remove_new_lines(text)
-                            print(f"Cleaned text: {clean_text[0:1000]}")
+                            # print(f"Cleaned text: {clean_text[0:1000]}")
                             if len(clean_text) != 0:
                                 title = clean_text[0].strip()  # Extract the title from the first line
-                                print(f"Extracted title: {title}")
+                                # print(f"Extracted title: {title}")
                                 content = "\n".join(clean_text[1:])  # Join the remaining lines as the content
-                                print(f"Extracted content: {content[0:1000]}")
+                                # print(f"Extracted content: {content[0:1000]}")
                                 legal_documents.append({
                                     "Title": title,
                                     "Filename": file,
                                     "Text": content
                                 })
-                                print(f"Extracted legal document: {legal_documents}")
+                                # print(f"Extracted legal document: {legal_documents}")
                     except UnicodeDecodeError:
                         print(f"Skipping file {file_path} due to encoding issues.")
 
-        print(f"Extracted legal documents: {legal_documents}")
-        print(f"Number of legal documents extracted: {len(legal_documents)}")
-        print(f"Type of legal documents: {type(legal_documents)}")
-        print(f"Example legal document: {legal_documents[0]}")
-        print(f"Example legal document text: {legal_documents[0]['Text'][500:700]}")
+        # print(f"Extracted legal documents: {legal_documents}")
+        # print(f"Number of legal documents extracted: {len(legal_documents)}")
+        # print(f"Type of legal documents: {type(legal_documents)}")
+        # print(f"Example legal document: {legal_documents[0]}")
+        # print(f"Example legal document text: {legal_documents[0]['Text'][500:700]}")
 
         # Clean up the downloaded ZIP file and extracted directory
         os.remove(zip_filename)
@@ -109,7 +110,7 @@ class LegalDocumentLoader:
                 os.rmdir(os.path.join(path, folder))
         os.rmdir(extract_directory)
 
-        print(f"Cleaned up downloaded ZIP file and extracted directory.")
+        # print(f"Cleaned up downloaded ZIP file and extracted directory.")
 
         return legal_documents
 
@@ -124,6 +125,8 @@ class LegalDocumentLoader:
         # Read the CSV file into a Pandas DataFrame
         df = pd.read_csv(file_path, index_col=0)
 
+        name_list = df.index.to_list()
+        
         # Check if the 'Text' column exists in the DataFrame
         if 'Text' not in df.columns:
             raise ValueError("The 'Text' column is missing in the CSV file.")
@@ -132,10 +135,21 @@ class LegalDocumentLoader:
         df['Clean Text'] = df['Text'].apply(lambda x: LegalDocumentLoader.clean_text(x) if isinstance(x, (str, bytes)) else "")
 
         # Extract the text content from the 'Clean Text' column and convert it to a list of strings
-        legal_documents = df['Clean Text'].tolist()
+        text_list = df['Clean Text'].tolist()
 
         # Remove any None or empty values from the list
-        legal_documents = [doc for doc in legal_documents if doc and isinstance(doc, str)]
+        text_list = [doc for doc in text_list if doc and isinstance(doc, str)]
+
+        # Initialize an empty list called 'data'
+        legal_documents = []
+
+        # Iterate through the elements of 'name_list' and 'text' simultaneously using zip
+        for name_item, text_item in zip(name_list, text_list):
+            # Create a dictionary with keys 'name' and 'text', and assign corresponding values
+            data_dict = {'Title': name_item, 'Text': text_item}
+
+            # Append the created dictionary to the 'data' list
+            legal_documents.append(data_dict)
 
         return legal_documents
 
@@ -149,4 +163,6 @@ class LegalDocumentLoader:
         """
         # TODO: Implement the logic to extract the text content from the DataFrame
         # and return a list of strings
+
+        df = df
         pass
